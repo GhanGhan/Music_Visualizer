@@ -1,0 +1,29 @@
+{
+	"Name": "Low-Midrange Filter",
+	"Description": "Pass frequencies between 250 and 500 Hz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 250,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 5000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "51",
+			"centerFrequency": 375
+		},
+		"components": {},
+		"tolerances": {},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-17 04:08:33 PM",
+	"UpdatedDate": "2022-04-17 04:08:33 PM"
+}

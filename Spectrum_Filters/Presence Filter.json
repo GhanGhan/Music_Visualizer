@@ -1,0 +1,29 @@
+{
+	"Name": "Presence Filter",
+	"Description": "Pass frequencies between 4 and 6 kHz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 2000,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 50000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": 50,
+			"centerFrequency": 5000
+		},
+		"components": {},
+		"tolerances": {},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-17 04:10:18 PM",
+	"UpdatedDate": "2022-04-17 04:10:18 PM"
+}

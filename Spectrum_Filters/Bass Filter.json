@@ -1,0 +1,78 @@
+{
+	"Name": "Bass",
+	"Description": "Pass frequencies between 60 and 250 Hz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances",
+			"next-steps"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 190,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 2500,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "51",
+			"centerFrequency": 155
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "Power",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 96,
+					"gain": 415,
+					"gainEnabled": true,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 90,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 102,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1,
+				2
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "5%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E96",
+			"capacitorPreferredSeries": "E24",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-17 04:06:57 PM",
+	"UpdatedDate": "2022-04-17 04:06:57 PM"
+}

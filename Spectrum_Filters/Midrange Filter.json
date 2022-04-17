@@ -1,0 +1,29 @@
+{
+	"Name": "Midrange Filter",
+	"Description": "Pass frequencies between 500 and 2kHz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 750,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 10300,
+			"filterResponseValue": 0,
+			"filterResponseSlider": 50,
+			"centerFrequency": 1250
+		},
+		"components": {},
+		"tolerances": {},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-17 04:09:16 PM",
+	"UpdatedDate": "2022-04-17 04:09:16 PM"
+}
