@@ -1,0 +1,20 @@
+* D:\ECE_Projects\Music_Visualizer\Misc\Inverting (Real) Amp with Bridge Rectifier.asc
+V1 Vin 0 SINE(0 0.17 10) AC 0.17
+R2 N001 Vin 1k
+R3 Aout N001 38k
+D1 Aout R+ D
+D2 R- 0 D
+D3 0 R+ D
+D4 R- Aout D
+R6 R+ R- 1k
+Vcc Vcc 0 5
+Vee Vee 0 -5
+XU1 0 N001 Vcc Vee Aout level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+.model D D
+.lib C:\Users\Ghani\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0.25
+;ac lin 100 1 100
+.lib opamp.sub
+.lib UniversalOpAmp1.lib
+.backanno
+.end
