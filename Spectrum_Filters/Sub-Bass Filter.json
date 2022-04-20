@@ -17,9 +17,9 @@
 			"passbandAttenuation": -3,
 			"passbandFrequency": 60,
 			"stopbandAttenuation": -60,
-			"stopbandFrequency": 500,
+			"stopbandFrequency": 200,
 			"filterResponseValue": 0,
-			"filterResponseSlider": "50",
+			"filterResponseSlider": 50,
 			"centerFrequency": null
 		},
 		"components": {
@@ -44,12 +44,21 @@
 					"gainEnabled": false,
 					"implementation": "sallenKey",
 					"opAmps": "LT6023"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 106,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "sallenKey",
+					"opAmps": "LT6023"
 				}
 			],
 			"recommendedAmps": [],
 			"sortOrder": [
 				0,
-				1
+				1,
+				2
 			]
 		},
 		"tolerances": {
@@ -63,6 +72,6 @@
 		},
 		"nextSteps": {}
 	},
-	"CreatedDate": "2022-04-17 03:50:19 PM",
-	"UpdatedDate": "2022-04-17 03:50:19 PM"
+	"CreatedDate": "2022-04-19 07:36:37 PM",
+	"UpdatedDate": "2022-04-19 07:36:37 PM"
 }
