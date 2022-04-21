@@ -6,7 +6,8 @@
 	"Design": {
 		"visitedTabs": [
 			"filter-type",
-			"specifications"
+			"specifications",
+			"components"
 		],
 		"filterType": "bandPass",
 		"specifications": {
@@ -18,12 +19,50 @@
 			"stopbandFrequency": 50000,
 			"filterResponseValue": 0,
 			"filterResponseSlider": 50,
-			"centerFrequency": 5000
+			"centerFrequency": 4900
 		},
-		"components": {},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "Power",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 72,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4096-2"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 72,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4096-2"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 72,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "ADA4096-2"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1,
+				2
+			]
+		},
 		"tolerances": {},
 		"nextSteps": {}
 	},
-	"CreatedDate": "2022-04-17 04:10:18 PM",
-	"UpdatedDate": "2022-04-17 04:10:18 PM"
+	"CreatedDate": "2022-04-20 11:24:33 PM",
+	"UpdatedDate": "2022-04-20 11:24:33 PM"
 }
