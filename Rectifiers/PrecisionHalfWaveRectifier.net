@@ -1,0 +1,16 @@
+* D:\ECE_Projects\Music_Visualizer\Rectifiers\PrecisionHalfWaveRectifier.asc
+XU1 0 N001 Vcc Vee Ao level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+Vcc NC_01 0 5
+Vee NC_02 0 -5
+V1 Vin 0 SINE(0 1 10)
+R1 N001 Vin 10k
+R2 Ao N001 17k
+R3 Vo 0 10k
+D1 N001 Ao D
+D2 Ao Vo D
+.model D D
+.lib C:\Users\Ghani\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 1
+.lib UniversalOpAmp1.lib
+.backanno
+.end
