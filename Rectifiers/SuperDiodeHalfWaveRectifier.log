@@ -1,0 +1,28 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Rectifiers\SuperDiodeHalfWaveRectifier.asc
+
+WARNING: Less than two connections to node VEE.  This node is used by VEE.
+Instance "m:u1:6": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:5": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:4": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:3": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:2": Length shorter than recommended for a level 2 MOSFET.
+Instance "m:u1:1": Length shorter than recommended for a level 2 MOSFET.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Apr 23 18:09:29 2022
+Total elapsed time: 0.266 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6276
+traniter = 6242
+tranpoints = 2312
+accept = 1850
+rejected = 462
+matrix size = 45
+fillins = 8
+solver = Normal
+Matrix Compiler1: 2.78 KB object code size  1.1/1.2/[0.3]
+Matrix Compiler2: 3.97 KB object code size  1.2/1.1/[0.7]
+
