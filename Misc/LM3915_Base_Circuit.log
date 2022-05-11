@@ -8,21 +8,21 @@ Instance "m:u2:2": Length shorter than recommended for a level 2 MOSFET.
 Instance "m:u2:1": Length shorter than recommended for a level 2 MOSFET.
 Direct Newton iteration for .op point succeeded.
 
-Date: Sun May 08 20:48:10 2022
-Total elapsed time: 1.390 seconds.
+Date: Mon May 09 13:10:34 2022
+Total elapsed time: 0.736 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 68631
-traniter = 68611
-tranpoints = 24201
-accept = 16778
-rejected = 7423
+totiter = 29556
+traniter = 29536
+tranpoints = 10086
+accept = 7186
+rejected = 2900
 matrix size = 78
 fillins = 9
 solver = Normal
-Thread vector: 15.9/10.8[2] 5.4/4.5[2] 4.9/3.3[2] 0.4/3.1[1]  2592/500
-Matrix Compiler1: 4.62 KB object code size  2.4/1.2/[0.5]
-Matrix Compiler2: 7.07 KB object code size  1.2/1.9/[0.6]
+Thread vector: 11.4/7.7[2] 2.2/2.6[1] 4.2/3.4[2] 0.3/2.0[1]  2592/500
+Matrix Compiler1: 4.62 KB object code size  1.2/0.6/[0.3]
+Matrix Compiler2: 7.07 KB object code size  0.7/0.8/[0.4]
 

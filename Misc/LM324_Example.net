@@ -1,0 +1,12 @@
+* D:\ECE_Projects\Music_Visualizer\Misc\LM324_Example.asc
+V1 Vin 0 SINE(0 1 10)
+Vcc Vcc 0 5
+Vee 0 Vee 5
+XU1 0 N001 Vcc Vee Vout LM324
+R1 N001 Vin 10k
+R2 Vout N001 20k
+R3 Vout 0 50k
+.include LM324.txt
+.tran 1
+.backanno
+.end
