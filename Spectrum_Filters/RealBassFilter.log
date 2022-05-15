@@ -1,0 +1,49 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Spectrum_Filters\RealBassFilter.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.82123
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.81856
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Fri May 13 16:08:37 2022
+Total elapsed time: 0.656 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3800
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 85
+fillins = 670
+solver = Normal
+Thread vector: 11.8/6.6[2] 2.2/2.5[1] 4.2/3.2[2] 1.1/11.2[1]  2592/500
+Matrix Compiler1: 54.30 KB object code size  8.9/4.3/[2.1]
+Matrix Compiler2: 18.33 KB object code size  5.1/3.1/[2.0]
+

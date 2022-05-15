@@ -1,0 +1,49 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Spectrum_Filters\RealLowMidrange.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.82123
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.81856
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Fri May 13 16:02:40 2022
+Total elapsed time: 0.646 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3849
+traniter = 2114
+tranpoints = 1058
+accept = 1045
+rejected = 13
+matrix size = 85
+fillins = 681
+solver = Normal
+Thread vector: 6.3/5.8[1] 2.1/2.5[1] 4.8/3.5[2] 0.9/26.8[1]  2592/500
+Matrix Compiler1: 58.35 KB object code size  9.6/4.7/[2.2]
+Matrix Compiler2: 18.46 KB object code size  5.6/3.3/[1.3]
+
