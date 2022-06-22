@@ -1,0 +1,22 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Misc\NegativeVoltageDoubler555.asc
+
+WARNING: Less than two connections to node N006.  This node is used by R2.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Jun 22 18:13:57 2022
+Total elapsed time: 6.208 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1533466
+traniter = 1533446
+tranpoints = 362922
+accept = 271837
+rejected = 91085
+matrix size = 23
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.10 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: off  [0.2]/0.2/0.3
+
