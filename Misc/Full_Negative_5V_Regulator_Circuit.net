@@ -1,0 +1,28 @@
+* D:\ECE_Projects\Music_Visualizer\Misc\Full_Negative_5V_Regulator_Circuit.asc
+C6 RegOut 0 10µ
+Rload RegOut 0 500
+XU1 0 Vo N003 Vo RegOut LT1964-5
+C7 RegOut N003 0.01µ
+XU2 0 RR Tout VCC N002 RR N001 VCC NE555
+V1 VCC 0 9
+Ra1 VCC N001 1k
+Rb1 N001 RR 10k
+C8 RR 0 50n
+C9 N002 0 10n
+C1 Tout V1 220µ
+C2 V1 V2 220µ
+C3 0 V3 220µ
+C4 V3 Vo 220µ
+D1 V1 0 1N4001
+D2 V3 V1 1N4001
+D3 V2 V3 1N4001
+D4 Vo V2 1N4001
+R1 Tout 0 100k
+C5 0 Vo 1µ
+.model D D
+.lib C:\Users\Ghani\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 1
+.lib LT1964.lib
+.lib NE555.sub
+.backanno
+.end
