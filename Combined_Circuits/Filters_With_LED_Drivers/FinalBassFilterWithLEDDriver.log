@@ -1,4 +1,4 @@
-Circuit: * D:\ECE_Projects\Music_Visualizer\Spectrum_Filters\Final_Filters\FinalBassFilter.asc
+Circuit: * D:\ECE_Projects\Music_Visualizer\Combined_Circuits\Filters_With_LED_Drivers\FinalBassFilterWithLEDDriver.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -36,27 +36,35 @@ Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
+Source Step = 14.3939%
+Source Step = 21.9697%
+Source Step = 29.5455%
+Source Step = 37.1212%
+Source Step = 44.697%
+vernier = 0.375
+Source Step = 54.5455%
+Source Step = 65.9091%
+Source Step = 77.2727%
+Source Step = 88.6364%
+Source Step = 100%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Wed Jun 29 19:44:43 2022
-Total elapsed time: 1.776 seconds.
+Date: Thu Jun 30 12:35:36 2022
+Total elapsed time: 4.708 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 9166
-traniter = 4818
-tranpoints = 1902
-accept = 1538
-rejected = 364
-matrix size = 86
-fillins = 666
+totiter = 26739
+traniter = 21870
+tranpoints = 5975
+accept = 4548
+rejected = 1427
+matrix size = 127
+fillins = 709
 solver = Normal
-Thread vector: 14.2/12.0[2] 2.1/2.6[1] 2.0/2.6[1] 1.1/6.8[1]  2592/500
-Matrix Compiler1: 53.74 KB object code size  8.8/4.4/[2.1]
-Matrix Compiler2: 18.36 KB object code size  4.7/5.6/[2.1]
+Thread vector: 37.5/16.3[3] 14.4/9.3[3] 79.5/18.5[3] 1.1/13.6[1]  2592/500
+Matrix Compiler1: 56.21 KB object code size  19.5/10.3/[4.7]
+Matrix Compiler2: 22.86 KB object code size  12.2/8.1/[2.1]
 
