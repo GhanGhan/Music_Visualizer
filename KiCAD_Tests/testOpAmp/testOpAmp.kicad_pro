@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Music_Visualizer.kicad_pro",
+    "filename": "testOpAmp.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -307,7 +307,7 @@
         "version": 0
       },
       "model_mode": 4,
-      "workbook_filename": "Music_Visualizer.wbk"
+      "workbook_filename": "testOpAmp.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
@@ -318,7 +318,7 @@
   },
   "sheets": [
     [
-      "236ff8a0-79ed-4eaf-ae36-90444797fa8d",
+      "57f977a9-12f6-4022-8fac-ffcbbe48781e",
       ""
     ]
   ],

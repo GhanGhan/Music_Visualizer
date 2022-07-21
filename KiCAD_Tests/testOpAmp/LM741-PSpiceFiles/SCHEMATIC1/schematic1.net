@@ -1,0 +1,6 @@
+* source LM741
+X_U1         N00506 N00436 VCC VEE N00436 LM741
+V_V3         N00506 0  
++SIN 0 1 1k 0 0 0
+V_V1         0 VEE 10
+V_V2         VCC 0 10

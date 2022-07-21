@@ -1,0 +1,173 @@
+
+**** 02/03/22 16:34:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm741.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 N([N00436])
+.PROBE64 N([N00506])
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LM741
+X_U1         N00506 N00436 VCC VEE N00436 LM741
+V_V3         N00506 0  
++SIN 0 1 1k 0 0 0
+V_V1         0 VEE 10
+V_V2         VCC 0 10
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 02/03/22 16:34:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         
+          IS    1.000000E-15 
+
+
+**** 02/03/22 16:34:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.QX         
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  625            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 02/03/22 16:34:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VCC)   10.0000  (  VEE)  -10.0000  (N00436)     .0010 (N00506)    0.0000     
+
+(X_U1.3) 500.0E-06 (X_U1.4)    -.6957 (X_U1.5)    9.9742 (X_U1.6)    9.9742     
+
+(X_U1.7)     .0010 (X_U1.8)    8.3700 (X_U1.9)     .0010 (X_U1.10)   -8.3700    
+
+(X_U1.15)     .0010                   (X_U1.16) 15.81E-09                       
+
+(X_U1.17)    0.0000                   (X_U1.20)     .1810                       
+
+(X_U1.21)    -.1790                   (X_U1.22)     .0010                       
+
+(X_U1.23)     .0010                   (X_U1.24)     .0029                       
+
+(X_U1.25)-889.5E-06                   (X_U1.26)     .6510                       
+
+(X_U1.27)    -.6490                   (X_U1.49)    0.0000                       
+
+(X_U1.98)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V3        -5.786E-08
+    V_V1        -1.576E-03
+    V_V2        -1.576E-03
+    X_U1.V2      8.370E-12
+    X_U1.V3      8.372E-12
+    X_U1.V6     -7.622E-05
+    X_U1.V7     -7.632E-05
+    X_U1.V5     -1.810E-13
+    X_U1.V4     -1.810E-13
+
+    TOTAL POWER DISSIPATION   3.16E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 02/03/22 16:34:55 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =        4.89
+  Total job time (using Solver 1)   =        1.81
+

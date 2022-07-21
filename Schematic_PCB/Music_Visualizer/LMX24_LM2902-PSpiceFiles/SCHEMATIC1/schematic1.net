@@ -1,0 +1,6 @@
+* source LMX24_LM2902
+V_V1         VCC 0 5
+V_V2         0 VEE 5
+X_U1         VIN VOUT VCC VEE VOUT LMX24_LM2902
+V_V3         VIN 0  
++SIN 0 1 1k 0 0 0

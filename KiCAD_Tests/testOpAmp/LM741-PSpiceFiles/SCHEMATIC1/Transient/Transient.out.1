@@ -1,0 +1,166 @@
+
+**** 02/03/22 16:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "Transient.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm741.lib" 
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1m 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LM741
+X_U1         N00506 N00436 VCC VEE N00436 LM741
+V_V3         N00506 0  
++SIN 0 1 1k 0 0 0
+V_V1         0 VEE 10
+V_V2         VCC 0 10
+
+**** RESUMING Transient.cir ****
+.END
+
+**** 02/03/22 16:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.DX         
+          IS    1.000000E-15 
+
+
+**** 02/03/22 16:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.QX         
+               NPN             
+       LEVEL    1            
+          IS  100.000000E-18 
+          BF  625            
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+ERROR(ORPSIM-16592): Detected an imported model containing transistors or diodes. For such models, PSpice for TI supports a minimum of one and maximum of three traces. No traces added for data collection. Add at least one trace and simulate again.
+
+
+ABORTING SIMULATION
+**** 02/03/22 16:34:21 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-Transient"  [ C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741\L
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           4
+  External (NCNODS)                 =          26
+  Total (NUMNOD)                    =          26
+
+Total device count (NUMEL)          =          46
+  Capacitors (C)                    =           3
+  Diodes (D)                        =           6
+  VCVS (E)                          =           3
+  CCCS (F)                          =           1
+  VCCS (G)                          =           3
+  Current Sources (I)               =           3
+  Inductors (L)                     =           2
+  BJTs (Q)                          =           2
+  Resistors (R)                     =          12
+  Voltage Sources (V)               =           9
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          40
+  Initial no. elements (NTTAR)      =         151
+  No. elements w/ fillin (NTTBR)    =         151
+  No. fillins (IFILL)               =           0
+  No. overflows (NTTOV)             =           0
+  No. LU operations (IOPS)          =           0
+  Percent sparsity (PERSPA)         =      90.563
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           1
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               1
+  Readin                            =        2.06
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =         .13
+  License check-out time            =        2.77
+  Total job time (using Solver 1)   =        2.09
+

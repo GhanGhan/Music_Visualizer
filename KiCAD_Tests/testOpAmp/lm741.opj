@@ -1,0 +1,71 @@
+(ExpressProject "LM741"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2021 S007-[02/03/22]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library\lm741.olb"
+        (Type "Schematic Library")))
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "61215")
+    (NoModify)
+    (File ".\lm741.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lm741-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\lm741-pspicefiles\schematic1\transient.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lm741-pspicefiles\schematic1\transient.sim"
+        (DisplayName "SCHEMATIC1-Transient")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\lm741.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\lm741.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (LM741
+      (FullPartName "LM741.Normal")
+      (LibraryName
+         "C:\USERS\A0488299\DESKTOP\APPLICATIONS ROTATION\PFTI- RENAMING 30 MODELS\PSPICE RENAME\LM741\LM741.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "Library")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 755"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1393 24 773")
+        (Scroll "-193 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\A0488299\DESKTOP\APPLICATIONS ROTATION\PFTI- RENAMING 30 MODELS\PSPICE RENAME\LM741\LM741.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\a0488299\Desktop\Applications Rotation\PFTI- renaming 30 models\PSPICE Rename\LM741")
+  (MPSSessionName "a0488299"))
