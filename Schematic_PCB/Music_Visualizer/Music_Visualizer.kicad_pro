@@ -418,6 +418,10 @@
     [
       "d77592bc-5812-4255-9ac4-28fcc93efec5",
       "Power"
+    ],
+    [
+      "56ed3a67-eed8-4688-8767-d6bf63bd87ca",
+      "LED_Driver"
     ]
   ],
   "text_variables": {}
