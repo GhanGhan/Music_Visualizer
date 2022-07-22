@@ -1,0 +1,30 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Misc\LT1054_Inverter_and_regulator.asc
+
+Per .tran options, skipping operating point for transient analysis.
+Heightened Def Con from 4.89654e-005 to 4.89664e-005
+Heightened Def Con from 0.000127054 to 0.000127055
+Heightened Def Con from 0.000174289 to 0.00017429
+Heightened Def Con from 0.000206808 to 0.000206809
+Heightened Def Con from 0.000245284 to 0.000245285
+Heightened Def Con from 0.000442674 to 0.000442675
+Heightened Def Con from 0.000529457 to 0.000529458
+Heightened Def Con from 0.000599535 to 0.000599536
+Heightened Def Con from 0.000687206 to 0.000687207
+
+Date: Mon Jul 18 15:39:26 2022
+Total elapsed time: 2.865 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 429844
+traniter = 429844
+tranpoints = 124183
+accept = 90865
+rejected = 33327
+matrix size = 19
+fillins = 9
+solver = Normal
+Matrix Compiler1: 1.20 KB object code size  0.3/0.2/[0.1]
+Matrix Compiler2: 1.50 KB object code size  0.1/0.2/[0.1]
+

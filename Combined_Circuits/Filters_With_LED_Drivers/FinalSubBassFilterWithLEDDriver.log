@@ -22,35 +22,34 @@ Gmin stepping failed
 
 Starting source stepping with srcstepmethod=0
 Source Step = 3.0303%
-Source Step = 14.3939%
-Source Step = 21.9697%
-Source Step = 29.5455%
-Source Step = 37.1212%
-Source Step = 44.697%
+Source Step = 16.6667%
+Source Step = 24.2424%
+Source Step = 31.8182%
+Source Step = 39.3939%
+Source Step = 46.9697%
 vernier = 0.375
-Source Step = 54.5455%
-Source Step = 65.9091%
-Source Step = 77.2727%
-Source Step = 88.6364%
-Source Step = 100%
+Source Step = 56.4394%
+Source Step = 67.803%
+Source Step = 79.1667%
+Source Step = 90.5303%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Thu Jun 30 12:34:51 2022
-Total elapsed time: 2.556 seconds.
+Date: Tue Jul 12 23:38:28 2022
+Total elapsed time: 2.450 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 33674
-traniter = 31520
-tranpoints = 8380
-accept = 6376
-rejected = 2004
+totiter = 39937
+traniter = 37844
+tranpoints = 10141
+accept = 7428
+rejected = 2713
 matrix size = 126
-fillins = 549
+fillins = 546
 solver = Normal
-Thread vector: 35.5/21.0[3] 8.4/5.5[3] 21.3/8.2[3] 1.2/3.8[1]  2592/500
-Matrix Compiler1: 56.75 KB object code size  16.8/10.3/[4.3]
-Matrix Compiler2: 19.94 KB object code size  7.3/10.0/[2.8]
+Thread vector: 35.5/14.4[3] 7.7/6.2[3] 18.2/7.3[3] 1.4/8.1[1]  2592/500
+Matrix Compiler1: 56.42 KB object code size  14.9/8.9/[4.1]
+Matrix Compiler2: 19.88 KB object code size  9.6/7.8/[4.1]
 
