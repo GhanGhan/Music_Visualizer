@@ -6634,8 +6634,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f3e6156e-7d01-4597-b7d3-9fd9cf393cea)
     (property "Reference" "SW1" (id 0) (at 91.44 251.46 0))
-    (property "Value" "SW_SPDT" (id 1) (at 91.44 254 0))
-    (property "Footprint" "local:SW_OS102011MS2QN1" (id 2) (at 91.44 259.08 0)
+    (property "Value" "" (id 1) (at 91.44 254 0))
+    (property "Footprint" "" (id 2) (at 91.44 259.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 91.44 259.08 0)
@@ -7170,6 +7170,12 @@
     (path "/b067b2c9-ed79-4b19-b934-2a655714ed3e"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/a2358d1e-6b27-4973-acba-fcd63cd710b2"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/f9251750-1ec8-4b28-94a2-e2c2fd034a76"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d3791e18-fb94-4a94-9f9d-30d4fd98db8e"
       (reference "C1") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0201_0603Metric")
     )
@@ -7340,6 +7346,12 @@
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/34210274-0770-46df-a987-16e6196ec740"
       (reference "C57") (unit 1) (value "220u") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/0c400b59-f5ad-4850-a5d0-92cb04b649a3"
+      (reference "C58") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/694ebbfc-d42f-4b27-9ff7-8a84762b2961"
+      (reference "C59") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/de358774-c2e9-4344-b111-e849f00e8b6c"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
@@ -7813,7 +7825,7 @@
       (reference "RV2") (unit 1) (value "5k_Rhi_Adjuster") (footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical")
     )
     (path "/f3e6156e-7d01-4597-b7d3-9fd9cf393cea"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "local:SW_OS102011MS2QN1")
+      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Slide_Switch:SW_OS102011MS2QN1")
     )
     (path "/7a70fb5f-edf3-42ca-8da4-fb415c6f3b93"
       (reference "U1") (unit 1) (value "LM324") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
