@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PTV09A-4225F-B104
+#
+DEF PTV09A-4225F-B104 VR 0 40 N N 1 L N
+F0 "VR" 200 0 50 H V L BNN
+F1 "PTV09A-4225F-B104" 0 0 50 H I L BNN
+F2 "PTV09" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "PTV09A-4225F-B104-ND" 0 0 50 H I L BNN "PARTNO"
+DRAW
+P 2 0 0 10 -100 0 100 100 N
+P 2 0 0 10 -100 0 100 -100 N
+P 2 0 0 10 100 -100 -100 -200 N
+P 2 0 0 10 -100 -200 0 -250 N
+P 2 0 0 10 0 -250 0 -300 N
+P 2 0 0 10 100 100 -100 200 N
+P 2 0 0 10 -100 200 0 250 N
+P 2 0 0 10 0 250 0 300 N
+P 2 0 0 10 -200 50 -150 0 N
+P 2 0 0 10 -150 0 -200 -50 N
+X ~ 2 -300 0 100 R 40 40 0 0 B 
+X ~ 1 0 400 100 D 40 40 0 0 B 
+X ~ 3 0 -400 100 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
