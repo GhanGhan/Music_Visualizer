@@ -253,7 +253,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 00063b8e-a0d6-4370-9ae1-8e70839ec4f0)
-    (at 142.175 123.93)
+    (at 146 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -295,7 +295,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 00684be8-52e4-4d18-b5bc-fec751d00896)
-    (at 218.7 59.49 180)
+    (at 205 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -338,7 +338,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0080a9f6-8a48-4eed-85b3-24030743568b)
-    (at 154.45 115.43)
+    (at 151 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -380,7 +380,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 009f70fb-0d50-4116-bb2f-495de543c74f)
-    (at 184.95 144.43)
+    (at 186 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -422,7 +422,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0192863e-482f-45c0-848f-f7188f988a47)
-    (at 153.7 83.185 -90)
+    (at 146 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -451,9 +451,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 3d8d6085-9cf1-42c5-b07b-fdb5d6c4ebba))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 6b7adaa2-d994-4a01-8b22-81c906268a26))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 9ffc6402-9066-4bda-a95e-529b0705756a))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 157 "Net-(R76-Pad1)") (pintype "passive") (tstamp eef50ffe-13d0-4ec3-aa6d-b836d64cf42c))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp fd95d906-3353-432e-8a7a-d5dc168413b9))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -499,7 +499,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 02a23b8e-c710-4b39-9d83-63922652e346)
-    (at 84.7 89.97 180)
+    (at 85 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -542,7 +542,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 036bd3ef-b0de-4806-bfec-15ee919641b0)
-    (at 383.7 100.129076 180)
+    (at 325 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -585,7 +585,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0446b6c2-549b-4125-bf2e-303a1cdb41b0)
-    (at 236.045 130.68)
+    (at 226 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -627,7 +627,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 05536503-5807-491c-9908-ac5d96475eef)
-    (at 94.175 151.45)
+    (at 106 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -669,7 +669,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0657ef75-a8ec-4aaf-9e0a-41ae3fc66752)
-    (at 142.175 150.93)
+    (at 146 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -711,7 +711,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0a7f232f-9e3f-4267-a3ab-df68e4b5d95e)
-    (at 357.725 133.679076)
+    (at 313 122)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -795,7 +795,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 0cdf0c74-4cd0-4ac0-92ff-d4a4ef6fe1bc)
-    (at 192.95 117.43)
+    (at 192 110)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -837,7 +837,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 110cd88a-61af-4792-a802-955acaafd416)
-    (at 236.355 120.68)
+    (at 226 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -879,7 +879,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 11f0cd5c-67cb-441c-bbd0-561269ded8ef)
-    (at 383.7 69.649076 180)
+    (at 325 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -922,7 +922,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 12026b03-bc14-4d33-ba5c-606c31ca0868)
-    (at 349.7 129.679076)
+    (at 307 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -964,7 +964,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 12dfe576-53e3-4337-ae73-7a1e2a783f40)
-    (at 203.79 83.135 -90)
+    (at 186 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -993,9 +993,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 4f41a1ee-c3b8-4249-b39a-da1148c8d904))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 609bc379-9450-4ea0-9643-83aeda1f8dfe))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp f67304c9-844b-46d0-9559-03e7ae340dc6))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 158 "Net-(R77-Pad1)") (pintype "passive") (tstamp 29d88969-1556-437a-a0ee-3b2a512768aa))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp 6e5e3172-1f06-4287-9db5-bee93b8ea3f9))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1006,7 +1006,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 13bf95c1-3b5d-4eee-81f4-d9eb633a91af)
-    (at 236.7 125.68)
+    (at 226 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1048,7 +1048,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 1416dc92-09e8-41fb-9994-6ba782b4bb45)
-    (at 278.7 110.29 180)
+    (at 245 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -1091,7 +1091,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 14c5a91a-78b9-4906-ad0e-76dc562e24aa)
-    (at 185.605 112.43)
+    (at 186 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1133,7 +1133,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 15b46215-3036-49ca-a919-d9d4365ec6be)
-    (at 245.7 132.68)
+    (at 232 120.5)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1175,7 +1175,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 15ef8bdf-e7ab-4917-9c1a-3a2d07d983a8)
-    (at 305 97.58 180)
+    (at 260 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -1271,7 +1271,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 16597b49-cd08-43d1-85c9-a73beb8ba315)
-    (at 245.7 121.68)
+    (at 232 111.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1313,7 +1313,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 16bb558e-6c1d-4c98-affd-00b37ff88940)
-    (at 331.24 140.769076 180)
+    (at 285 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -1356,7 +1356,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 18e76431-7026-4283-8b41-b85f716e3489)
-    (at 192.95 138.43)
+    (at 192 128)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1398,7 +1398,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1b53eac1-0265-48cc-aa28-0889e0a7c94a)
-    (at 94.175 130.45)
+    (at 106 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1440,7 +1440,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1cc8c39e-87a0-400d-a2ff-00b2e9e52dc0)
-    (at 147.95 121.43)
+    (at 152 114)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1536,7 +1536,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 1e5f847d-cd72-41f9-847e-8605531cff91)
-    (at 304.45 131.93)
+    (at 272 122.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1578,7 +1578,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 1eff9cc3-d731-4373-94da-d5deaaf94375)
-    (at 170.68 140.77 180)
+    (at 165 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -1621,7 +1621,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 1f6783ff-4804-4043-84ac-109cc155d168)
-    (at 195 97.58 180)
+    (at 180 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -1717,7 +1717,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 241ee518-4bb5-465f-bc82-6101396a4c5c)
-    (at 236.7 140.68)
+    (at 226 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1759,7 +1759,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 27bccf66-b13c-4c0c-8df4-fe6e9c4dd7a5)
-    (at 331.24 49.329076 180)
+    (at 285 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -1802,7 +1802,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 28610aeb-847a-4fe8-95b6-ea7c199f9735)
-    (at 383.7 79.809076 180)
+    (at 325 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -1845,7 +1845,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2875d7a0-b869-40a3-b13a-75e2d3d775ee)
-    (at 236.7 115.68)
+    (at 226 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1887,7 +1887,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 28ecbddd-3827-4c1d-a962-22a000f4977b)
-    (at 350.045 134.679076)
+    (at 307.155 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -1978,7 +1978,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2b6d8c48-6a4e-44cb-9aae-4f3d83238a96)
-    (at 309.45 116.18)
+    (at 271 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2020,7 +2020,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 2cc18ecf-b6eb-4611-8094-768519fcd8ac)
-    (at 245 97.58 180)
+    (at 220 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -2116,7 +2116,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 2f954b96-0b50-489b-ac97-48460f029fad)
-    (at 400.77 128.929076)
+    (at 353 119)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2158,7 +2158,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 319ab963-5bc7-489e-9326-d68e2b09e871)
-    (at 141.83 145.93)
+    (at 146 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2200,7 +2200,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 34b12d73-1b4d-42bf-af2c-e375fd548e9d)
-    (at 147.95 111.43)
+    (at 152 106)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2242,7 +2242,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3706ddbb-80f9-414d-8d11-af70d928eca6)
-    (at 394.45 129.929076)
+    (at 347 117)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2284,7 +2284,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 38037a4c-4baa-4646-9c7a-4b352f7689b2)
-    (at 84.7 130.61 180)
+    (at 85 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -2327,7 +2327,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 38d5c8c4-ff85-4e4d-aa75-690da85ba7d8)
-    (at 245.7 145.68)
+    (at 232 128.5)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2369,22 +2369,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 39820a52-e19c-4324-9259-97cd2143250a)
-    (at 254.95 102.43)
+    (at 226 90 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/bf77a0f4-a50d-4f12-a09b-f26945b42bc6")
     (attr smd)
-    (fp_text reference "C46" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C46" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fc15b7d9-e6f7-4c99-bfae-d756858a171a)
     )
-    (fp_text value "10u" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "10u" (at 0 1.68 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7004d2d6-87d7-4f69-950e-6a8beefd19bc)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 9491c7b2-08c6-49b5-97a5-684536022976)
     )
@@ -2398,9 +2398,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 2e1a16f9-789d-42a8-90b9-c625e486dcab))
     (fp_line (start -1 0.625) (end -1 -0.625) (layer "F.Fab") (width 0.1) (tstamp d3e885be-d1ef-45a1-b696-85e86af22ade))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp f479b003-b626-40d7-aa18-9b1c229a9413))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 35 "Net-(C23-Pad2)") (pintype "passive") (tstamp d8e5ee84-fe0e-4b1b-8f0c-b96e1c05cebf))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 67 "VMidrange") (pintype "passive") (tstamp ff0f9474-7921-4017-99b3-080521425cdf))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2411,7 +2411,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 3be67c62-3887-4a14-bd55-a5aea950c2a4)
-    (at 170.68 79.81 180)
+    (at 165 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -2454,7 +2454,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 3d0396dd-6646-4cda-bff1-db39c63b6bf2)
-    (at 126.2 120.45 180)
+    (at 125 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -2497,7 +2497,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3d96783a-d806-44f4-8f64-c90ce735ac9f)
-    (at 237.7 160.68)
+    (at 226 140)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2539,7 +2539,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 3df75e9a-c43d-420f-bb31-54d3ce93e6b9)
-    (at 147.5 97.58 180)
+    (at 140 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -2635,7 +2635,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3e733325-cece-4c11-baaa-322b4e71b324)
-    (at 142.175 139.93)
+    (at 146 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2677,7 +2677,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 3ecff072-8fe5-4f17-80df-e230846fb12d)
-    (at 84.7 100.13 180)
+    (at 85 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -2720,7 +2720,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3ee21700-8d97-41d2-b3fc-d0a465edb58e)
-    (at 141.83 133.93)
+    (at 146 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2762,7 +2762,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3f50f38e-c872-4634-a362-46108fb12d25)
-    (at 304.45 120.93)
+    (at 271.975 114.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2804,7 +2804,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3fdadd0f-d683-41c3-a5d8-7bf8a983dfcf)
-    (at 192.95 122.43)
+    (at 192 114)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2846,7 +2846,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 40caec5b-dc79-4b70-b413-a6f96392f24a)
-    (at 147.95 132.43)
+    (at 152 123)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -2930,7 +2930,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 42e2e8e1-8d08-4de1-b1fb-dea5f0edb931)
-    (at 126.2 110.29 180)
+    (at 125 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -2973,7 +2973,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 44ed9db2-eafa-4fc5-956a-9a21eebaa2f0)
-    (at 218.7 49.33 180)
+    (at 205 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3016,7 +3016,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4522eb93-fac0-4dd3-a3b3-cbf6938cc6a9)
-    (at 394.795 149.929076)
+    (at 347 133)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3058,22 +3058,22 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 459d2a77-f14c-438c-a318-d48d3641b8ca)
-    (at 363.045 113.679076)
+    (at 306 91 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/2e830701-c27d-4da9-81bc-d794db618bcc")
     (attr smd)
-    (fp_text reference "C48" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C48" (at 0 -1.16 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1a0d999f-c151-4778-923e-9bbad61b8527)
     )
-    (fp_text value "1u" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "1u" (at 0 1.16 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ef6e57a-b83e-4cdf-8226-921f2e4417f3)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp 5602a576-3b9b-4df0-a1c7-5b807859d478)
     )
@@ -3087,9 +3087,9 @@
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 781e5835-8e2c-4548-a0ce-d2c36a03de9e))
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 9cc71620-e206-43ac-876b-9f94c1b86e06))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp fd1d6069-753e-4dfd-8e16-e9de65bad465))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 53 "Net-(C35-Pad2)") (pintype "passive") (tstamp 3c26703d-1bbb-494d-8012-9ef86a506a96))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 69 "VPresence") (pintype "passive") (tstamp b1700c45-44ff-4d9a-95bb-656004091816))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3100,7 +3100,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 466d6184-d6c5-4483-b328-cb58fd46ba19)
-    (at 157.45 125.43)
+    (at 136 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3173,7 +3173,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 46baee15-2df0-42e7-a86e-59b9a771d6a0)
-    (at 278.7 89.97 180)
+    (at 245 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3216,7 +3216,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 474681e9-1125-4e37-8778-3452d4a404ca)
-    (at 84.7 69.65 180)
+    (at 85 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3301,22 +3301,22 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4a973de1-3243-4a91-a7ba-1322a295e0a5)
-    (at 203.95 100.93)
+    (at 186 90 90)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/d0baa7c2-5832-45cc-b8fa-1a14fede978d")
     (attr smd)
-    (fp_text reference "C45" (at 0 -1.68) (layer "F.SilkS")
+    (fp_text reference "C45" (at 0 -1.68 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp da89eb43-bb50-4273-9537-16aa601d2700)
     )
-    (fp_text value "10u" (at 0 1.68) (layer "F.Fab")
+    (fp_text value "10u" (at 0 1.68 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d8281c7b-bc0a-4670-aadb-a6396fb03b94)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.5 0.5) (thickness 0.08)))
       (tstamp 31f4ca5e-511b-4f8c-8955-e6ec7b84ee27)
     )
@@ -3330,9 +3330,9 @@
     (fp_line (start 1 0.625) (end -1 0.625) (layer "F.Fab") (width 0.1) (tstamp 60055bc6-0f4c-4842-9be0-223f27b83219))
     (fp_line (start -1 -0.625) (end 1 -0.625) (layer "F.Fab") (width 0.1) (tstamp b6b110a7-f7fc-4327-a902-b38b04082818))
     (fp_line (start 1 -0.625) (end 1 0.625) (layer "F.Fab") (width 0.1) (tstamp b959f010-88d9-4ceb-9bf1-dc258c36d743))
-    (pad "1" smd roundrect (at -0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(C17-Pad2)") (pintype "passive") (tstamp b57d26ac-615b-4a4f-ac23-d4a112ca8716))
-    (pad "2" smd roundrect (at 0.95 0) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.95 0 90) (size 1 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 66 "VLowerMidrange") (pintype "passive") (tstamp a234d476-eea5-43f9-83af-a0e7592256dc))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3343,7 +3343,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 4af2ec78-3481-4d29-b19e-80ef7de5b375)
-    (at 84.7 79.81 180)
+    (at 85 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3386,7 +3386,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 4cb8bcc8-ce10-42ab-b9a6-0f3d414f0286)
-    (at 218.7 79.81 180)
+    (at 205 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3429,7 +3429,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4ee13d81-c419-431e-b002-b7f650390992)
-    (at 142.175 156.93)
+    (at 146 140)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3525,7 +3525,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 4fa0cd7c-93e0-4a47-ab70-37b264bab716)
-    (at 126.2 130.61 180)
+    (at 125 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3568,7 +3568,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 51c92d30-9cb5-487e-960f-6f3e067538cc)
-    (at 400.45 120.929076)
+    (at 353 111)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3610,7 +3610,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 538a8866-764e-433e-bbbc-723610ee3ac5)
-    (at 331.24 69.649076 180)
+    (at 285 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3653,7 +3653,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 53ad98b3-1392-4106-b40f-225385fb2b7a)
-    (at 383.7 130.609076 180)
+    (at 325 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3696,7 +3696,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 53c1429b-bee3-4da1-ba4b-5c2d7246d006)
-    (at 394.105 134.929076)
+    (at 347 121)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3738,7 +3738,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 55d69d25-6f45-432e-bbd0-664ad857a4eb)
-    (at 331.24 100.129076 180)
+    (at 285 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3781,7 +3781,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 56286e25-288e-4463-abf4-077a4522615b)
-    (at 142.175 128.93)
+    (at 146 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3823,7 +3823,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 56718553-b9ca-4e20-8d97-165aa023ce68)
-    (at 350.045 118.679076)
+    (at 307 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3865,7 +3865,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 570db851-3c14-4b07-aaee-dec69aaa6841)
-    (at 218.7 120.45 180)
+    (at 205 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -3908,7 +3908,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 584a27a4-f7cc-464f-b56b-5e46d0765e59)
-    (at 235.7 135.68)
+    (at 226 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3950,7 +3950,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 59288607-7924-4105-9a48-06be023f09fe)
-    (at 394.45 119.929076)
+    (at 347 109)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -3992,7 +3992,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 5a70fa70-a46c-4136-9de4-2dd7ef8cd2a0)
-    (at 126.2 69.65 180)
+    (at 125 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4035,7 +4035,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 5b136792-cc2b-4458-90c1-09231647b49f)
-    (at 278.7 49.33 180)
+    (at 245 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4078,7 +4078,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5b3787b7-6339-490f-9936-d3a56d12afa8)
-    (at 401.04 116.019076)
+    (at 353 107)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4120,7 +4120,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5c71ddd2-2aa4-411f-8a51-d794e4d2d375)
-    (at 394.105 124.929076)
+    (at 347 113)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4162,7 +4162,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 5d14ffbb-c339-47b6-85f7-cbce89bda4aa)
-    (at 84.7 120.45 180)
+    (at 85 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4205,7 +4205,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 5eb64e29-e1d0-4f37-b38d-0a4395a2b1c6)
-    (at 245.7 138.68)
+    (at 232 124.5)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4311,7 +4311,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 6015f5b4-43fe-465d-87cf-9731f16a5417)
-    (at 278.7 79.81 180)
+    (at 245 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4354,7 +4354,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 6082b095-a137-4194-ad23-464a0f22abd4)
-    (at 126.2 59.49 180)
+    (at 125 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4440,7 +4440,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 61a55d72-5c9a-4cbf-84ac-46c0c4cfba81)
-    (at 170.68 89.97 180)
+    (at 165 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4483,22 +4483,22 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6223f6be-3904-4825-8aaf-9ee6b1a180de)
-    (at 407.45 114.929076)
+    (at 346 91 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/b95ee1e2-6d88-433f-a6fa-afde92d3e27a")
     (attr smd)
-    (fp_text reference "C49" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C49" (at 0 -1.16 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ffdc997c-229a-4767-b3a5-c6d0b69f1290)
     )
-    (fp_text value "1u" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "1u" (at 0 1.16 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2d749cff-85ee-4564-9ce6-03cc375d882b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp 7151d112-9908-41f0-b6cd-32e5d196fcd2)
     )
@@ -4512,9 +4512,9 @@
     (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 1c27c340-6a02-4fee-888a-eb9f04c06887))
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 68b96b6c-159d-4c22-af38-032d46447dec))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 7e2699fc-d704-40e3-bab2-b73d924ec0ad))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 62 "Net-(C41-Pad2)") (pintype "passive") (tstamp 5bf7429a-5947-490d-bf46-d37163ca8e83))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 70 "VBrilliance") (pintype "passive") (tstamp 68b0744e-81a0-4efd-bdd8-bcceea7e28d5))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4525,7 +4525,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 631b26c8-f41d-4362-adaa-76ba44157af2)
-    (at 350.045 145.679076)
+    (at 307 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4567,7 +4567,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 63d5bfee-15b1-4b56-a780-fb1ee5f70572)
-    (at 185.27 139.43)
+    (at 186 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4651,7 +4651,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 65482620-12e7-40fc-852a-c4fe9e4f20c8)
-    (at 278.7 59.49 180)
+    (at 245 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -4694,7 +4694,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 68466e21-445f-44e6-9508-9a020b9d0979)
-    (at 299.425 119.18)
+    (at 266 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4736,7 +4736,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 68c5b873-4aa8-46de-a7c5-c9859dc364a7)
-    (at 358.045 123.679076)
+    (at 313 114)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4778,7 +4778,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6c34063c-0bf7-4b66-b4c3-c5792caa25a9)
-    (at 94.175 110.45)
+    (at 106 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -4862,7 +4862,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 6d2bfb48-2305-4650-8cfb-599cf6f01841)
-    (at 407.5 97.579076 180)
+    (at 340 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -4958,7 +4958,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 6d2c9fd7-0ebb-4efb-942b-bea4a6e56707)
-    (at 331.24 110.289076 180)
+    (at 285 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5001,7 +5001,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6e077308-3839-4a5b-a9d2-0de66f1b4ca0)
-    (at 350.045 155.679076)
+    (at 307 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5085,7 +5085,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 722704a3-b0a7-47f7-b47c-e58cd41c1067)
-    (at 192.95 112.43)
+    (at 192 106)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5127,7 +5127,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7234ff7d-83f4-43fa-abfe-0c2c6ef15cc6)
-    (at 358.045 139.679076)
+    (at 313 126)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5169,7 +5169,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 72b9669a-6b76-4647-844f-a566e80b4a89)
-    (at 331.24 120.449076 180)
+    (at 285 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5212,7 +5212,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 73fdbcd9-bdc3-47fa-87f3-276f9eceed2f)
-    (at 170.68 100.13 180)
+    (at 165 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5255,7 +5255,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 753383e5-8fd1-4ea5-9c56-6da9098d1bc3)
-    (at 331.24 59.489076 180)
+    (at 285 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5298,7 +5298,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 765ffef7-cb66-44c2-b451-394440f0375b)
-    (at 84.7 140.77 180)
+    (at 85 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5341,7 +5341,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 767af8ad-fc8c-41b1-98e7-b35872cebc01)
-    (at 170.68 130.61 180)
+    (at 165 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5384,7 +5384,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp 76c8988a-4493-407f-8cfa-bd68805db0fc)
-    (at 102.75 97.58 180)
+    (at 100 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -5480,22 +5480,22 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 77940bcc-74c2-47ac-97aa-cc0449dd1ded)
-    (at 99.925 136.45)
+    (at 111.75 128.95)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/74bd1b75-872c-42ac-9b19-25ea3fde5bed")
     (attr smd)
-    (fp_text reference "C6" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "C6" (at 0.005 -1.8) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp de3709be-7be7-450e-9e64-7c4f9d3672a8)
     )
-    (fp_text value "75n" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "75n" (at 0.005 2.05) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 501be515-c6d6-45e5-95a1-c6a762241d17)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at -0.02 0) (layer "F.Fab")
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp 8e97a2c2-15cc-41d8-8a13-979d8e68364c)
     )
@@ -5522,7 +5522,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 7828029e-e7fc-4aa5-81da-84571d5c1f4b)
-    (at 218.7 130.61 180)
+    (at 205 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5565,7 +5565,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 78a37d2f-0c47-4ea5-a7f2-daef175e404f)
-    (at 278.7 69.65 180)
+    (at 245 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5652,7 +5652,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7ab59348-52c2-4df9-ba74-34f7bec93b40)
-    (at 184.95 154.43)
+    (at 186.095 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5694,7 +5694,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7ab840ba-e027-442b-95b4-eecff9a96ffe)
-    (at 400.45 137.929076)
+    (at 353 127)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5736,7 +5736,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 7adcf177-2d55-4529-848e-43e52011d5c9)
-    (at 126.2 49.33 180)
+    (at 125 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -5779,7 +5779,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7b7ab97f-40ef-45af-af88-e7c861872e52)
-    (at 99.925 120.45)
+    (at 112 114)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5821,7 +5821,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7baab7bd-039c-43db-be31-86f519925de5)
-    (at 142.175 118.93)
+    (at 146 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5863,7 +5863,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7c294df5-6a31-4c9e-ac9c-0fc08f93531f)
-    (at 106.245 118.2)
+    (at 111 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5905,7 +5905,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7daf9219-b4c6-405e-a521-c5fca671a759)
-    (at 147.95 138.43)
+    (at 152 129)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5947,7 +5947,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7e00822a-c18e-4742-8ab9-fb04d0490d3d)
-    (at 358.045 118.679076)
+    (at 313 110)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -5989,7 +5989,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 7fe6a218-e99e-47e4-bd8f-2b7060034b4c)
-    (at 200.95 117.43)
+    (at 191 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6073,7 +6073,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 81fe389a-215f-48e6-b3f4-f04f5627a8a9)
-    (at 245.7 115.68)
+    (at 232 106.5)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6115,22 +6115,22 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 833609b8-be7c-4a84-afcb-bd2b98f82f66)
-    (at 314.22 100.43)
+    (at 266 90.48 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/585f3264-2190-4aae-9dea-cfc541caf0a6")
     (attr smd)
-    (fp_text reference "C47" (at 0 -1.16) (layer "F.SilkS")
+    (fp_text reference "C47" (at 0 -1.16 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7fcd3859-0fc7-4e36-a27a-a7dc7e560a57)
     )
-    (fp_text value "1u" (at 0 1.16) (layer "F.Fab")
+    (fp_text value "1u" (at 0 1.16 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 19389be0-413a-4d35-8b9b-4a7170a8a57a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.25 0.25) (thickness 0.04)))
       (tstamp 5149665a-7004-4fde-924a-41d150780ffc)
     )
@@ -6144,9 +6144,9 @@
     (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 62288d12-73d6-4cbf-be11-2f737c80abb6))
     (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer "F.Fab") (width 0.1) (tstamp 70e27c22-fc4c-4a2c-9b07-c786001b8f48))
     (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer "F.Fab") (width 0.1) (tstamp 8ad4eb1c-da2e-4f34-939b-c5466818f184))
-    (pad "1" smd roundrect (at -0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 44 "Net-(C29-Pad2)") (pintype "passive") (tstamp 0f15bcb6-d9a3-4e5f-885a-dee5a8bbdeac))
-    (pad "2" smd roundrect (at 0.48 0) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.48 0 90) (size 0.56 0.62) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 68 "VUpperMidrange") (pintype "passive") (tstamp 430b87db-a726-495a-984e-973101ebaa3e))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
       (offset (xyz 0 0 0))
@@ -6157,7 +6157,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 836091ef-83f4-46b0-816e-1266ac7d804c)
-    (at 147.95 116.43)
+    (at 152 110)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6199,7 +6199,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 84472d37-3033-4b27-85a3-131518a029c4)
-    (at 400.45 133.929076)
+    (at 353 123)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6241,7 +6241,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 877b87e6-e5e8-4d09-9dad-a50e527a0dea)
-    (at 84.7 59.49 180)
+    (at 85 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -6284,7 +6284,7 @@
 
   (footprint "PTV111_Horizontal:TRIM_PTV111-1415A-B203" (layer "F.Cu")
     (tedit 62DD76D0) (tstamp 8c878e7c-f489-4391-a747-31103f68b1e1)
-    (at 185.65 180.68)
+    (at 185 190)
     (property "Sheetfile" "Led_Driver.kicad_sch")
     (property "Sheetname" "LED_Driver")
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/09eaa136-75d0-48fe-a03b-a1369df77003")
@@ -6356,7 +6356,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 90f42569-42e2-4c75-9194-43c99d9eaf57)
-    (at 278.7 120.45 180)
+    (at 245 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -6399,7 +6399,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 91d7aebc-caf0-4a0e-8685-318fad987da9)
-    (at 299.77 149.18)
+    (at 266.345 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6441,7 +6441,7 @@
 
   (footprint "Capacitor_SMD:C_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 91dbb5f5-870f-434d-a80e-eef107f9fca0)
-    (at 192.95 132.43)
+    (at 192 123)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6483,7 +6483,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 96706284-a141-407f-b6e7-f69ddf630d99)
-    (at 84.7 110.29 180)
+    (at 85 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -6526,7 +6526,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 97058817-3e01-4bb1-b207-c64ef399e38a)
-    (at 350.045 113.679076)
+    (at 307 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6568,7 +6568,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 97841fcc-cd66-4bfc-b856-6743df7ff71b)
-    (at 99.925 116.45)
+    (at 112.16 110)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6610,7 +6610,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9877b7b4-413f-49de-83f0-58e377af3281)
-    (at 192.95 127.43)
+    (at 192 118)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6652,7 +6652,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 9a1423d9-f6e3-4e60-a642-3be33bb2e3d8)
-    (at 218.7 100.13 180)
+    (at 205 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -6695,7 +6695,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9ba0049e-1fbd-4ed4-8645-a8910ca89b0f)
-    (at 394.45 153.929076)
+    (at 347 137)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6786,7 +6786,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9d09c53c-85d7-45dd-a214-2cd7777bd9f8)
-    (at 304.45 110.93)
+    (at 272 106)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6828,7 +6828,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9d8843c7-c843-4d3b-aea2-75d0249238f5)
-    (at 184.605 149.43)
+    (at 186 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6870,7 +6870,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp 9f966eb3-c911-4c44-a893-c9aafd674e66)
-    (at 383.7 120.449076 180)
+    (at 325 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -6913,7 +6913,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a1327a89-17b6-413d-a9a6-eea3a0db6f75)
-    (at 304.45 115.93)
+    (at 272 110.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -6955,7 +6955,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp a1bcef5f-c889-4703-93e9-d53ed3f9e7dc)
-    (at 170.68 49.33 180)
+    (at 165 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7058,7 +7058,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a21602c3-98be-48bf-8898-788628196c8e)
-    (at 400.45 124.929076)
+    (at 353 115)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7100,7 +7100,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a3ba6a77-bb13-4fd7-8984-1635dc58f775)
-    (at 366.72 83.154076 -90)
+    (at 306 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7129,9 +7129,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 62178e3c-d3d6-4ef4-af6e-0d6e4e8c2eb6))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp b40b842d-f888-496a-b809-17339a4a465c))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp d717f7e3-3bdc-412e-a681-2a133020c830))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 161 "Net-(R80-Pad1)") (pintype "passive") (tstamp c3478a4e-2e79-4a57-a9f5-e8c061b80f8c))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp 1c129fce-70de-4bbc-aba9-f58069f2b2da))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7142,7 +7142,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a4ff891b-d736-4c4d-8cf1-f729dbb468e6)
-    (at 94.175 115.45)
+    (at 106 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7184,7 +7184,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp a68e94d7-88ec-4510-ae35-28187d54e0eb)
-    (at 218.7 89.97 180)
+    (at 205 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7227,7 +7227,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a7c9c74f-1c68-428c-ae31-b17ac8158b73)
-    (at 304.45 126.93)
+    (at 272 118.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7269,7 +7269,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp a83abfa8-1a67-47d9-a4df-40c114b6c5ba)
-    (at 410.45 128.929076)
+    (at 296 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7342,7 +7342,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a94feb68-ccb7-452c-b09d-f2297bf27f94)
-    (at 299.77 139.18)
+    (at 266 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7384,7 +7384,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a9a238af-1cef-42c2-90a1-cfa1cc9fe819)
-    (at 185.95 127.43)
+    (at 186 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7426,7 +7426,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp aad674f5-46d2-4852-8c0c-4914f011de35)
-    (at 253.87 83.165 -90)
+    (at 226 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7455,9 +7455,9 @@
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 97a5e016-f4cf-4ac9-98c2-9ced306735f2))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp cd7f5e76-82b6-4797-82be-fb406e1246d5))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp d7fbe2fd-aee2-4982-8cf1-ac8b92a266dc))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 159 "Net-(R78-Pad1)") (pintype "passive") (tstamp 5ab54ebc-37f9-4d6d-bf87-77f51b8a649d))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp d3c95586-4a0e-4c73-a4df-36117c9d0d38))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7468,7 +7468,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp abd227d2-068b-4215-b053-d8ef3f4f448c)
-    (at 350.045 139.679076)
+    (at 307 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7552,7 +7552,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp aebc58cb-a243-4e6b-acca-9d71281a178c)
-    (at 106.7 83.165 -90)
+    (at 106 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7581,9 +7581,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 57aa627e-c4a7-4d7d-8828-c8bda48533a0))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 59393a87-f544-4275-bc60-8f6348d34c58))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp d404587a-be8c-4220-a0b2-475b438dda51))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 155 "Net-(R75-Pad1)") (pintype "passive") (tstamp 586f2b6d-fa10-4914-9542-5b7a7f941174))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp 9d6fe3d6-9e7f-4ef7-b4ff-62a5ef76e2be))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7594,7 +7594,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp af451ea7-831e-433b-a160-5f74b4241694)
-    (at 94.175 125.45)
+    (at 106 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7636,7 +7636,7 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b0ac3f92-f465-497d-b3f9-e0fea388bb05)
-    (at 99.925 130.45)
+    (at 111.75 123)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7647,7 +7647,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 51ba27de-4c1a-40f0-bd33-de9accb35e8e)
     )
-    (fp_text value "75n" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "75n" (at 0 1.95) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cee9f1bb-7ad6-48e0-b441-55473384d0af)
     )
@@ -7720,7 +7720,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp b1681c6b-1ba0-42a8-9cb5-c546ac4d39d5)
-    (at 201.95 128.43)
+    (at 176 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7793,7 +7793,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp b177d36d-aca8-4749-8e6e-ca9297f70ebc)
-    (at 218.7 140.77 180)
+    (at 205 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7836,7 +7836,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b19cd0a0-ba4f-4c0e-a63b-35abb7c65e17)
-    (at 299.425 129.18)
+    (at 266 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7878,7 +7878,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b3019053-75f5-4f3f-9ace-0d9649671926)
-    (at 299.425 144.18)
+    (at 266 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -7920,7 +7920,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp b68480dc-69de-4b1b-8543-bff5eea0c00f)
-    (at 383.7 59.489076 180)
+    (at 325 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -7963,7 +7963,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp b6caf0a3-11f4-4840-89d6-811a60e7432a)
-    (at 126.2 79.81 180)
+    (at 125 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8006,7 +8006,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp b7a411d4-089c-4184-af5b-7d6918264e19)
-    (at 383.7 89.969076 180)
+    (at 325 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8049,7 +8049,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b7e6d68d-2895-4fb3-aa45-79aa949b26cf)
-    (at 299.425 114.18)
+    (at 266 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8091,7 +8091,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp bbed828d-0d7a-46cd-bdc4-7c319283fdab)
-    (at 126.2 140.77 180)
+    (at 125 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8185,7 +8185,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp bddba308-03ba-4edf-8586-c7b76b2110bd)
-    (at 278.7 140.77 180)
+    (at 245 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8228,7 +8228,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be3c8f75-dbb4-4e83-b04b-ed02b7c71b59)
-    (at 416.5 83.164076 -90)
+    (at 346 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8257,9 +8257,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 570ff83f-90cb-4753-8d49-49665d581511))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp a44f95ef-98da-4099-b1ce-9e9808687c18))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp e80bdf51-4e8c-4788-b705-2d8d92cbf45a))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 162 "Net-(R81-Pad1)") (pintype "passive") (tstamp 2d1526bb-c645-4a63-961d-62cad8a2c49a))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp 1b9f891c-00e4-4f22-97d1-f30636768403))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -8270,7 +8270,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp be84f688-661d-44fd-a14f-095b4d305355)
-    (at 313.84 83.135 -90)
+    (at 266 84 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8299,9 +8299,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 4e2c1d1a-7049-43bd-b83b-b492787be80d))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 8725313f-814c-4b9f-b910-7f3dc9fcd67b))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp be5270aa-28d6-4909-b8f1-e9e544f9dd75))
-    (pad "1" smd roundrect (at -0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 160 "Net-(R79-Pad1)") (pintype "passive") (tstamp 56e36c88-5bd7-4d17-b0ce-553415319c3c))
-    (pad "2" smd roundrect (at 0.825 0 270) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.825 0 90) (size 0.8 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 156 "LED_Brightness_Control") (pintype "passive") (tstamp 715620d5-0bc5-4bbe-80e3-046f413b754e))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -8312,7 +8312,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c047837c-377b-4402-8c0b-9280f48c5606)
-    (at 394.45 139.929076)
+    (at 347 125)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8354,7 +8354,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp c298ac2e-e66c-48a1-88e3-b8733502fb98)
-    (at 170.68 69.65 180)
+    (at 165 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8397,7 +8397,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp c31d7ae9-8abb-4ae4-ba00-7303e89518bc)
-    (at 126.2 100.13 180)
+    (at 125 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8440,7 +8440,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c42c62a6-f80d-4bb1-80fd-c89e86437718)
-    (at 185.95 133.43)
+    (at 186 120)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8482,7 +8482,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c6193a3d-ac57-49c6-9f84-c0f0df6baf32)
-    (at 237.045 145.68)
+    (at 226 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8524,7 +8524,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c6c8217f-c5f6-4f90-a893-035210de59ee)
-    (at 299.425 109.18)
+    (at 266 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8566,7 +8566,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp c79c96c8-9428-450c-8f8b-e7652bb29b80)
-    (at 245.7 127.68)
+    (at 232 116.5)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8608,7 +8608,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cb11e8d3-9695-4eea-9c76-0529bfabcdd0)
-    (at 394.45 144.929076)
+    (at 347 129)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8650,7 +8650,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp cbdc6f54-7e0c-4f6e-8ddc-cdf240a38358)
-    (at 350.39 150.679076)
+    (at 307 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8692,7 +8692,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp cc05a49a-0b93-4b91-8a29-4cd49bc37240)
-    (at 331.24 79.809076 180)
+    (at 285 80 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8766,7 +8766,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp cff86565-569c-40d0-a248-40e8661197c9)
-    (at 126.2 89.97 180)
+    (at 125 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -8809,7 +8809,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d0f78870-46bc-4039-8734-8dcbce6c40e4)
-    (at 357.7 129.679076)
+    (at 313 118)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8851,7 +8851,7 @@
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d162c7f8-a199-4381-b3d5-f52a5a13ddb2)
-    (at 99.925 125.45)
+    (at 111.82 118)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -8966,7 +8966,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d1ce9173-6d6b-4caf-8104-716c6e77df1b)
-    (at 99.925 112.45)
+    (at 112.135 106)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9008,7 +9008,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp d2f7d483-ad8b-4b19-af9b-a27029846055)
-    (at 84.7 49.33 180)
+    (at 85 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9051,7 +9051,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp d320d90e-7e9a-4772-891d-0654a370844b)
-    (at 331.24 130.609076 180)
+    (at 285 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9094,7 +9094,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp d36e609b-770e-4aa9-8581-0ae9adfbf37a)
-    (at 278.7 130.61 180)
+    (at 245 130 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9137,7 +9137,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp d3d695a9-46ba-47c0-b8f3-66d42ef00b2c)
-    (at 218.7 110.29 180)
+    (at 205 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9180,7 +9180,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp d425d3c5-9959-4b29-8cdc-703ed43f1c53)
-    (at 383.7 140.769076 180)
+    (at 325 140 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9223,7 +9223,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d71b9ef4-d4cc-41dd-8e7f-8743258c24e5)
-    (at 304.45 136.93)
+    (at 272 126.25)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9265,7 +9265,7 @@
 
   (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (layer "F.Cu")
     (tedit 5AE50EF0) (tstamp d8866c7a-cc1d-4efa-824d-42f6e9a3e4cf)
-    (at 263.7 158.18)
+    (at 275 175)
     (descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
     (tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9438,7 +9438,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp d93461bf-3596-4046-a8a6-2d162192c6e4)
-    (at 299.08 134.18)
+    (at 266 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9480,7 +9480,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp da55c286-5459-4bc6-9233-73f6969f3f56)
-    (at 94.175 145.45)
+    (at 106 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9522,7 +9522,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp da82ee12-d428-449c-b65e-b2d88b12fbd5)
-    (at 94.175 135.45)
+    (at 106 124)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9564,7 +9564,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp dcaf89bf-e9d4-43aa-a318-e5c523c67279)
-    (at 170.68 59.49 180)
+    (at 165 60 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9607,7 +9607,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp de119402-e840-441f-963c-666e85bc088b)
-    (at 407.45 118.929076)
+    (at 351 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9649,7 +9649,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp e14dfcee-a61b-47de-8ba9-8a40a01acd46)
-    (at 383.7 110.289076 180)
+    (at 325 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9692,7 +9692,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp e2457899-b750-4036-86f2-1a5b9779db41)
-    (at 331.24 89.969076 180)
+    (at 285 90 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9785,7 +9785,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e4a8ffc1-6f0d-4300-a69e-5ffbb93d3fd5)
-    (at 358.045 113.679076)
+    (at 313 106)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9827,22 +9827,22 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e60e25c7-cca6-4255-ac22-256be3fee760)
-    (at 156.45 99.68)
+    (at 146 91 90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/c20dcbc7-b7a5-45b9-a60b-d80dacbaa10a")
     (attr smd)
-    (fp_text reference "C44" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "C44" (at 0 -1.85 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3207c6f8-6921-489e-b091-ed1bf70bfd7e)
     )
-    (fp_text value "100u" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "100u" (at 0 1.85 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b0dce6a7-d4c9-47cb-9c56-c45b8a60af12)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp b74fee5d-0e06-47d0-8dea-fc31043ca8ef)
     )
@@ -9856,9 +9856,9 @@
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp 1628d221-1398-40f8-b32f-27408aff7cb9))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp ddd6baca-3102-4f4f-874d-8948a170cdfd))
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp fd1ef275-66e2-49e5-803a-dafa37e05f2c))
-    (pad "1" smd roundrect (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 17 "Net-(C11-Pad2)") (pintype "passive") (tstamp 98a6c515-f25e-4f83-8de2-5539fb446ad5))
-    (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 65 "VBass") (pintype "passive") (tstamp 67423a97-991f-4349-8cf8-f68cdea28384))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -9869,7 +9869,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e734ad59-b452-4b44-9d11-eb0d2d2e6515)
-    (at 299.425 124.18)
+    (at 266 116)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -9911,7 +9911,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp e73a09c5-35e1-4af3-9d83-98939b8009e3)
-    (at 383.7 49.329076 180)
+    (at 325 50 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -9954,7 +9954,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp e7a5664a-f7b7-4b1f-83cc-2b260ee13949)
-    (at 312.45 125.93)
+    (at 256 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10027,7 +10027,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ea2b6247-2c8d-4789-b133-fca8a8f10051)
-    (at 94.175 120.45)
+    (at 106 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10069,7 +10069,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp ea4ab96a-c85f-485c-87d9-ba04a4b96ea8)
-    (at 218.7 69.65 180)
+    (at 205 70 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -10112,22 +10112,22 @@
 
   (footprint "Capacitor_SMD:C_1206_3216Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ea8c8fa1-b533-4af7-97a5-62cdd549e762)
-    (at 111.2 101.18)
+    (at 106 91 90)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
     (property "Sheetname" "")
     (path "/48ce9577-043e-4a13-bf79-30de03150bdb")
     (attr smd)
-    (fp_text reference "C43" (at 0 -1.85) (layer "F.SilkS")
+    (fp_text reference "C43" (at 0 -1.85 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dd8f9eb0-6c0a-4fcc-a66d-0214f837cbf3)
     )
-    (fp_text value "100u" (at 0 1.85) (layer "F.Fab")
+    (fp_text value "100u" (at 0 1.85 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ba9ddd9-d967-40ee-9e85-899d3aedacba)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.8 0.8) (thickness 0.12)))
       (tstamp b1d4c65a-d246-4f6c-9e52-a176f14d58d3)
     )
@@ -10141,9 +10141,9 @@
     (fp_line (start -1.6 -0.8) (end 1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp a00c4c8f-4b43-4927-9bb4-f69b03040869))
     (fp_line (start 1.6 0.8) (end -1.6 0.8) (layer "F.Fab") (width 0.1) (tstamp f22c4497-278f-491f-9f86-d9464e809f24))
     (fp_line (start -1.6 0.8) (end -1.6 -0.8) (layer "F.Fab") (width 0.1) (tstamp f8b732c9-2175-47b1-b266-d76c69486b67))
-    (pad "1" smd roundrect (at -1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "1" smd roundrect (at -1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 8 "Net-(C43-Pad1)") (pintype "passive") (tstamp bb54380e-a227-48e1-a14c-e66a27ae0b14))
-    (pad "2" smd roundrect (at 1.475 0) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
+    (pad "2" smd roundrect (at 1.475 0 90) (size 1.15 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.217391)
       (net 64 "VSubBass") (pintype "passive") (tstamp aecfc785-782d-4742-b878-911d39f233ba))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -10154,7 +10154,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp eaf0749f-fc67-4f3c-9a2d-cfa1273640a6)
-    (at 94.175 140.45)
+    (at 106 128)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10196,7 +10196,7 @@
 
   (footprint "Capacitor_SMD:C_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp eb2695c2-32db-402b-8aef-4f94a5d4c944)
-    (at 147.95 126.43)
+    (at 152 118)
     (descr "Capacitor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "capacitor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10238,7 +10238,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f07d4381-ec81-4f57-9d5f-14728878e7c2)
-    (at 363.045 118.679076)
+    (at 311 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10280,7 +10280,7 @@
 
   (footprint "Resistor_SMD:R_0805_2012Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f1d76f16-0486-45d6-b0b6-4fecc8458046)
-    (at 394.45 114.929076)
+    (at 347 104.5)
     (descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10322,7 +10322,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp f5a0727f-9757-4afe-bc00-51f01417769a)
-    (at 170.68 110.29 180)
+    (at 165 110 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -10365,7 +10365,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f5b6fed0-6865-4920-87ea-8940576d5396)
-    (at 142.175 113.93)
+    (at 146 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10407,7 +10407,7 @@
 
   (footprint "Package_DIP:DIP-18_W7.62mm_Socket" (layer "F.Cu")
     (tedit 5A02E8C5) (tstamp f65fba45-ee7c-413b-96ca-09c09cf2868a)
-    (at 357.84 97.579076 180)
+    (at 300 100 180)
     (descr "18-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
     (property "MANUFACTURER" "TEXAS INSTRUMENT")
@@ -10503,7 +10503,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp f6b2929d-eea7-4a46-a549-5694db06150b)
-    (at 253.7 134.43)
+    (at 216 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10576,7 +10576,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f7133893-d076-4779-a7e3-3768a8854f4d)
-    (at 237.38 150.68)
+    (at 226 132)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10618,7 +10618,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp f751bbdd-6bc8-4a06-baee-162a4b18bd26)
-    (at 278.7 100.13 180)
+    (at 245 100 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -10661,7 +10661,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f7c1d615-5a2d-4bfc-bc64-a440899706c3)
-    (at 252.7 121.68)
+    (at 231.345 90)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10703,7 +10703,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f7e1ea81-0a7b-4345-b4ea-2ad6eddec665)
-    (at 237.7 155.68)
+    (at 226 136)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10787,7 +10787,7 @@
 
   (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp fa6c3e0e-350a-4700-8960-9a962e8c4f06)
-    (at 113.425 129.2)
+    (at 96 125)
     (descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10860,7 +10860,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fcec5a45-d065-4407-bbb0-87b967a5bf71)
-    (at 185.605 117.43)
+    (at 186 108)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10902,7 +10902,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fcf60840-3b33-40e9-9b12-a1edc5cf7c75)
-    (at 350.045 123.679076)
+    (at 307 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10944,7 +10944,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fd984e0a-5417-4d9a-8664-fe9ea505f79b)
-    (at 142.175 108.93)
+    (at 146 104)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -10986,7 +10986,7 @@
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
     (tedit 5995936A) (tstamp feea409f-fa6c-44a4-8e2c-ce44199faeea)
-    (at 170.68 120.45 180)
+    (at 165 120 180)
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (property "Sheetfile" "Led_Driver.kicad_sch")
@@ -11029,7 +11029,7 @@
 
   (footprint "Resistor_SMD:R_0201_0603Metric" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ffdd57a1-d335-47ab-9c26-6e0ab94ae2d0)
-    (at 185.605 122.43)
+    (at 186 112)
     (descr "Resistor SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator")
     (tags "resistor")
     (property "Sheetfile" "Music_Visualizer.kicad_sch")
@@ -11073,25 +11073,25 @@
   (gr_line (start 443.7 224.93) (end 443.7 24.93) (layer "Edge.Cuts") (width 0.1) (tstamp 6425faa8-33ce-4de1-967d-19b297a6d545))
   (gr_line (start 51.2 24.93) (end 51.2 224.93) (layer "Edge.Cuts") (width 0.1) (tstamp 9c030952-fe3d-4416-8833-c89bfec11ce1))
   (gr_line (start 51.2 224.93) (end 443.7 224.93) (layer "Edge.Cuts") (width 0.1) (tstamp e873a73b-cb3b-4497-9d38-94e634375baf))
-  (gr_text "Presence\n[4kHz:6kHz]\n\n\n" (at 331.2 42.429076) (layer "F.SilkS") (tstamp 049088cc-8bd0-42ca-b5d0-afdbdcceb229)
+  (gr_text "Presence\n[4kHz:6kHz]\n\n\n" (at 285 45) (layer "F.SilkS") (tstamp 049088cc-8bd0-42ca-b5d0-afdbdcceb229)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Midrange\n[500Hz:2kHz]\n\n\n" (at 218.7 42.43) (layer "F.SilkS") (tstamp 234d3144-9042-4075-a014-e653de775b96)
+  (gr_text "Midrange\n[500Hz:2kHz]\n\n\n" (at 205 45) (layer "F.SilkS") (tstamp 234d3144-9042-4075-a014-e653de775b96)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Upperr-Midrange\n[2kHz:4kHz]\n\n\n" (at 276.2 42.43) (layer "F.SilkS") (tstamp 8ecc5cac-2090-489a-b05c-39b30e66713d)
+  (gr_text "Upper-Midrange\n[2kHz:4kHz]\n\n\n" (at 245 45) (layer "F.SilkS") (tstamp 8ecc5cac-2090-489a-b05c-39b30e66713d)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Sub-Bass\n[20Hz:60Hz]\n\n\n" (at 83.7 42.43) (layer "F.SilkS") (tstamp a96b6833-e3df-4e2a-8134-6e54fc328dc2)
+  (gr_text "Sub-Bass\n[20Hz:60Hz]\n\n\n" (at 85 45) (layer "F.SilkS") (tstamp a96b6833-e3df-4e2a-8134-6e54fc328dc2)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Brilliance\n[6kHz:20kHz]\n\n\n" (at 381.2 42.429076) (layer "F.SilkS") (tstamp b5a2b2bd-d963-4578-8037-b7bc4282246e)
+  (gr_text "Brilliance\n[6kHz:20kHz]\n\n\n" (at 325 45) (layer "F.SilkS") (tstamp b5a2b2bd-d963-4578-8037-b7bc4282246e)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Bass\n[60Hz:250Hz]\n\n\n" (at 126.2 42.43) (layer "F.SilkS") (tstamp c1b3964f-1f26-4f24-b92f-e01fd9c2bd51)
+  (gr_text "Bass\n[60Hz:250Hz]\n\n\n" (at 125 45) (layer "F.SilkS") (tstamp c1b3964f-1f26-4f24-b92f-e01fd9c2bd51)
     (effects (font (size 3 3) (thickness 0.5)))
   )
-  (gr_text "Lower-Midrange\n[250Hz:500Hz]\n\n\n" (at 168.7 42.43) (layer "F.SilkS") (tstamp ff846249-e1d3-435d-8a91-9f701013f6b0)
+  (gr_text "Lower-Midrange\n[250Hz:500Hz]\n\n\n" (at 165 45) (layer "F.SilkS") (tstamp ff846249-e1d3-435d-8a91-9f701013f6b0)
     (effects (font (size 3 3) (thickness 0.5)))
   )
 
