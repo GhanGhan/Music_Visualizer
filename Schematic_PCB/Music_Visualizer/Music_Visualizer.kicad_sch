@@ -7835,10 +7835,10 @@
       (reference "R82") (unit 1) (value "330") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/09eaa136-75d0-48fe-a03b-a1369df77003"
-      (reference "RV1") (unit 1) (value "10k_LED_Brightness_Pot") (footprint "PTV111_Horizontal:TRIM_PTV111-1415A-B203")
+      (reference "RV1") (unit 1) (value "10k_LED_Brightness_Pot") (footprint "PTV09A_Pot_Vertical:PTV09")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/158887b9-5801-4b72-8777-2824f8a067dd"
-      (reference "RV2") (unit 1) (value "5k_Rhi_Adjuster") (footprint "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical")
+      (reference "RV2") (unit 1) (value "5k_Rhi_Adjuster") (footprint "PTV09A_Pot_Vertical:PTV09")
     )
     (path "/f3e6156e-7d01-4597-b7d3-9fd9cf393cea"
       (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Slide_Switch:SW_OS102011MS2QN1")
