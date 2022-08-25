@@ -7150,7 +7150,7 @@
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/419facc8-bf3c-430c-872f-6012cf05d3ec"
       (reference "#PWR082") (unit 1) (value "+9V") (footprint "")
     )
-    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/5a8e7e09-1a09-4ced-a202-b89032e63afa"
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/34434934-9705-4f13-80bc-70b4ffc72aee"
       (reference "#PWR083") (unit 1) (value "GND") (footprint "")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/593a0c48-b2ee-449d-a3d3-4605ed730d82"
@@ -7179,6 +7179,24 @@
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/a2358d1e-6b27-4973-acba-fcd63cd710b2"
       (reference "#PWR092") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/8a754439-94e3-4cef-8087-26454cdde9f0"
+      (reference "#PWR093") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/d4487b78-ffe5-446d-b046-d04e2ba831fb"
+      (reference "#PWR094") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/d0d2c3de-4318-4af5-bb45-b05b1d8ae65d"
+      (reference "#PWR095") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/ae55fcd1-9516-443c-950d-96656566ea84"
+      (reference "#PWR096") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/9ef7b1c3-e760-40de-ba09-c92b6cb0d07d"
+      (reference "#PWR097") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/1ec4f4c4-a93c-4781-9e70-f02d917923af"
+      (reference "#PWR098") (unit 1) (value "GND") (footprint "")
     )
     (path "/b067b2c9-ed79-4b19-b934-2a655714ed3e"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -7354,14 +7372,32 @@
     (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/2a3651ce-90a9-474d-b2b7-36a92d4fc588"
       (reference "C56") (unit 1) (value "0.002u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/34210274-0770-46df-a987-16e6196ec740"
-      (reference "C57") (unit 1) (value "220u") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
-    )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/0c400b59-f5ad-4850-a5d0-92cb04b649a3"
-      (reference "C58") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C57") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/694ebbfc-d42f-4b27-9ff7-8a84762b2961"
-      (reference "C59") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C58") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/7ca593cb-fbd6-47bd-a943-5616cecacc37"
+      (reference "C59") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/fad65343-c511-4bc9-8e58-fa0e8d39c9dd"
+      (reference "C60") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/fd08180f-1e7d-4b4a-b562-35530bafaaa8"
+      (reference "C61") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/cd178bee-45af-4c72-b941-ac14ee2b17d4"
+      (reference "C62") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/ba03ad08-2cfc-4e50-8d47-c0b83a62bd3a"
+      (reference "C63") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/3240d8a4-8ba0-41d7-9a45-b6e33c7f2afc"
+      (reference "C64") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
+    )
+    (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/b98dd52c-e123-4565-b09d-ac7410e8db89"
+      (reference "C65") (unit 1) (value "10u") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm")
     )
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/de358774-c2e9-4344-b111-e849f00e8b6c"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
