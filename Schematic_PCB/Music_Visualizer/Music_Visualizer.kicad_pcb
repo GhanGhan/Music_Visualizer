@@ -4864,7 +4864,7 @@
 
   (footprint "DC_Power_Jack_PJ_070BH:CUI_PJ-079BH" (layer "F.Cu")
     (tedit 62DDCC0C) (tstamp 5f27b82b-61cf-4ee8-a8a7-4fe562287cc7)
-    (at 352.8975 158.66 180)
+    (at 352.89744 158.660008 180)
     (property "MANUFACTURER" "CUI Inc")
     (property "PARTREV" "LTR")
     (property "STANDART" "Manufacturer Recommendations")
@@ -4919,6 +4919,11 @@
       (net 174 "Net-(J2-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp 736228d1-1d4c-4c95-89a1-cfb2f875012a))
     (pad "S2" thru_hole oval locked (at 3 3.7 180) (size 2.616 1.308) (drill oval 2.3 0.8) (layers *.Cu *.Mask)
       (net 174 "Net-(J2-PadS1)") (pinfunction "SHIELD") (pintype "passive") (tstamp b9c6118b-71e2-48c2-97d7-ec8be899b76a))
+    (model "${KIPRJMOD}/Project_Library/DC_Power_Jack/CUI_DEVICES_PJ-079BH.step"
+      (offset (xyz -4.445 -2.54 5.08))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "LED_THT:LED_D5.0mm" (layer "F.Cu")
