@@ -430,8 +430,6 @@
         "microvia_drill": 0.1,
         "name": "FilterInternal",
         "nets": [
-          "Net-(C1-Pad1)",
-          "Net-(C1-Pad2)",
           "Net-(C10-Pad1)",
           "Net-(C10-Pad2)",
           "Net-(C11-Pad1)",
