@@ -42,21 +42,20 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Wed Jun 29 19:44:43 2022
-Total elapsed time: 1.776 seconds.
+Date: Tue Oct 11 00:29:27 2022
+Total elapsed time: 0.746 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-totiter = 9166
-traniter = 4818
-tranpoints = 1902
-accept = 1538
-rejected = 364
+method = trap
+totiter = 4337
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
 matrix size = 86
 fillins = 666
 solver = Normal
-Thread vector: 14.2/12.0[2] 2.1/2.6[1] 2.0/2.6[1] 1.1/6.8[1]  2592/500
-Matrix Compiler1: 53.74 KB object code size  8.8/4.4/[2.1]
-Matrix Compiler2: 18.36 KB object code size  4.7/5.6/[2.1]
+Matrix Compiler1:    2834 opcodes
+Matrix Compiler2: 18.36 KB object code size  2.9/3.1/[1.3]
 
