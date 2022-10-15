@@ -8592,6 +8592,9 @@
     (path "/56ed3a67-eed8-4688-8767-d6bf63bd87ca/d196db43-8ddb-414f-b9f6-73c647803a2e"
       (reference "JP2") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical")
     )
+    (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/910f0b66-abdc-4c00-a347-50dbde622298"
+      (reference "Q1") (unit 1) (value "DMP2123LQ-7") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/d6fcfd94-4c55-457d-974c-aeac203f01c3"
       (reference "R1") (unit 1) (value "84.5k") (footprint "Resistor_SMD:R_0201_0603Metric")
     )
