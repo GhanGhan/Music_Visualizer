@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>D:\ECE_Projects\Music_Visualizer\Schematic_PCB\Music_Visualizer\Music_Visualizer.kicad_sch</source>
-    <date>2022-09-26 2:30:24 AM</date>
+    <date>2022-10-17 6:09:24 PM</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -507,6 +507,146 @@
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b95ee1e2-6d88-433f-a6fa-afde92d3e27a</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>354a135f-6be3-4f1a-8c09-d749ef2ea78e</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f45e9ed9-cbfc-4f56-9cb5-1f5e017d48c1</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1df92811-52a6-43a6-b0bb-d4eed0b12d93</tstamps>
+    </comp>
+    <comp ref="C63">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2688ae2a-5650-4641-bbf3-d4cec5760309</tstamps>
+    </comp>
+    <comp ref="C64">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76f9874b-5514-44aa-a9a3-086166d988f3</tstamps>
+    </comp>
+    <comp ref="C65">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>537a25eb-69c5-4c7c-bfe9-79ede2944bcf</tstamps>
+    </comp>
+    <comp ref="C66">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>325fa149-0a86-4c7f-b7e7-df90ba54b432</tstamps>
+    </comp>
+    <comp ref="C67">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38bade3e-f336-4788-8173-330d50711fea</tstamps>
+    </comp>
+    <comp ref="C68">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>feb1824a-e016-4785-a3ba-85827e86dfb6</tstamps>
+    </comp>
+    <comp ref="C69">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93d5c0e9-48e1-4739-9470-86ccf423df29</tstamps>
+    </comp>
+    <comp ref="C70">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56c8c7a2-b725-46b8-964c-b7d29c7dce5b</tstamps>
+    </comp>
+    <comp ref="C71">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bdefe90-f9a1-4ad6-b5a9-8af7f3639210</tstamps>
+    </comp>
+    <comp ref="C72">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbf24a26-dad4-4bbd-bba3-d84d16a91be5</tstamps>
+    </comp>
+    <comp ref="C73">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.ca/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e5c0d7f-3c32-45ae-b0b0-8be3b1ce0792</tstamps>
     </comp>
     <comp ref="J1">
       <value>AudioJack3</value>
@@ -1208,7 +1348,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>7a70fb5f-edf3-42ca-8da4-fb415c6f3b93 fcc106fd-7f7e-449f-a87f-c0ffa6e93e73 551332f4-1e72-43bc-a8d0-99294241a41e de502330-cafd-4bca-9600-df3ffe818b20 15477b6d-34dd-4fae-abd4-b7870d44e105</tstamps>
+      <tstamps>de502330-cafd-4bca-9600-df3ffe818b20 7a70fb5f-edf3-42ca-8da4-fb415c6f3b93 fcc106fd-7f7e-449f-a87f-c0ffa6e93e73 551332f4-1e72-43bc-a8d0-99294241a41e 15477b6d-34dd-4fae-abd4-b7870d44e105</tstamps>
     </comp>
     <comp ref="U2">
       <value>LM324</value>
@@ -1228,7 +1368,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ea34faf6-0cf9-43ce-bb57-04ea98d2ec30 84dc3251-c581-43e1-8e86-e53b5efc8269 c0a35b75-0e83-4311-add3-5a3930110d30 f239e11e-34af-438d-a4f5-e32e052016e7 5a7a8c16-813c-4d39-bb38-4fe8173d3667</tstamps>
+      <tstamps>f239e11e-34af-438d-a4f5-e32e052016e7 ea34faf6-0cf9-43ce-bb57-04ea98d2ec30 c0a35b75-0e83-4311-add3-5a3930110d30 84dc3251-c581-43e1-8e86-e53b5efc8269 5a7a8c16-813c-4d39-bb38-4fe8173d3667</tstamps>
     </comp>
     <comp ref="U3">
       <value>LM324</value>
@@ -1248,7 +1388,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>785e4b62-a2f1-4606-a6f6-c76eb9c10f0e 88bb68d4-0f81-4663-a6c4-d0febe71e2b6 18e517f0-f5cb-4a33-ad4c-f325bd5fc5fa c9f4ef82-075a-4449-9efa-15277086f1a8 0e3bb4d7-b09c-44b4-a673-500b33390dd0</tstamps>
+      <tstamps>785e4b62-a2f1-4606-a6f6-c76eb9c10f0e c9f4ef82-075a-4449-9efa-15277086f1a8 18e517f0-f5cb-4a33-ad4c-f325bd5fc5fa 88bb68d4-0f81-4663-a6c4-d0febe71e2b6 0e3bb4d7-b09c-44b4-a673-500b33390dd0</tstamps>
     </comp>
     <comp ref="U4">
       <value>LM324</value>
@@ -1268,7 +1408,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a1c53311-e71e-4206-87ec-75fdb57ae807 3db8d3f5-fc34-4b70-89b5-c37a504a2751 b4b037c3-2967-463f-9b9d-89b939922224 aa2adf73-fcb0-46e6-8155-ba24ba13f4b6 1fbaba29-ae38-425a-ae22-139a6b587a88</tstamps>
+      <tstamps>a1c53311-e71e-4206-87ec-75fdb57ae807 b4b037c3-2967-463f-9b9d-89b939922224 aa2adf73-fcb0-46e6-8155-ba24ba13f4b6 3db8d3f5-fc34-4b70-89b5-c37a504a2751 1fbaba29-ae38-425a-ae22-139a6b587a88</tstamps>
     </comp>
     <comp ref="U5">
       <value>LM324</value>
@@ -1288,7 +1428,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>157fca78-a39a-4579-986e-74ca11cfcdbf c9fce310-1a44-48d5-823a-bf0ad1c25570 314c3e6b-8c29-4668-b788-139627e59a6b 261f7431-d856-4a0b-9b69-8ff1b3627f07 067e704a-4735-4b01-91bc-6cb7aa516dce</tstamps>
+      <tstamps>314c3e6b-8c29-4668-b788-139627e59a6b 261f7431-d856-4a0b-9b69-8ff1b3627f07 157fca78-a39a-4579-986e-74ca11cfcdbf c9fce310-1a44-48d5-823a-bf0ad1c25570 067e704a-4735-4b01-91bc-6cb7aa516dce</tstamps>
     </comp>
     <comp ref="U6">
       <value>LM324</value>
@@ -1308,7 +1448,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>8ef94b81-6555-4ec3-9765-8f7dc201b1fc d2ea63fb-9a40-464a-9077-947f9dd580a9 e17e3b58-44ef-44d7-addc-c7ae18cbd9e9 1883d882-c4ef-4f3e-bedf-651c3947e54f 0c33e911-42ae-47e5-84bd-d60a88212bd9</tstamps>
+      <tstamps>e17e3b58-44ef-44d7-addc-c7ae18cbd9e9 8ef94b81-6555-4ec3-9765-8f7dc201b1fc d2ea63fb-9a40-464a-9077-947f9dd580a9 1883d882-c4ef-4f3e-bedf-651c3947e54f 0c33e911-42ae-47e5-84bd-d60a88212bd9</tstamps>
     </comp>
     <comp ref="U7">
       <value>LM324</value>
@@ -1328,7 +1468,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Music_Visualizer.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ed04c1c2-85c0-4d15-bdfe-fa9602be8154 c1c99b40-a30a-4a2c-9ef8-67f29434d10e f67675ca-085e-4bf6-9306-ba360bce62b6 cece94d7-2c19-4c27-a951-15ab4d4a721b 7c4d5282-5bf9-4776-b5e2-e870143af139</tstamps>
+      <tstamps>c1c99b40-a30a-4a2c-9ef8-67f29434d10e f67675ca-085e-4bf6-9306-ba360bce62b6 cece94d7-2c19-4c27-a951-15ab4d4a721b ed04c1c2-85c0-4d15-bdfe-fa9602be8154 7c4d5282-5bf9-4776-b5e2-e870143af139</tstamps>
     </comp>
     <comp ref="C50">
       <value>0.33uF</value>
@@ -1425,6 +1565,15 @@
       <property name="Sheetfile" value="Power.kicad_sch"/>
       <sheetpath names="/Power/" tstamps="/d77592bc-5812-4255-9ac4-28fcc93efec5/"/>
       <tstamps>e49cfd4a-442e-4c4e-a4e7-e091c087c649</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMP2123LQ-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <libsource lib="Device" part="Q_PMOS_DGS" description="P-MOSFET transistor, drain/gate/source"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/d77592bc-5812-4255-9ac4-28fcc93efec5/"/>
+      <tstamps>910f0b66-abdc-4c00-a347-50dbde622298</tstamps>
     </comp>
     <comp ref="R73">
       <value>20k</value>
@@ -2545,6 +2694,20 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="Device" part="Q_PMOS_DGS">
+      <description>P-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PMOS_DGS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -2770,6 +2933,13 @@
     <net code="1" name="+5V">
       <node ref="C51" pin="1" pintype="passive"/>
       <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C66" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C72" pin="2" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
       <node ref="U17" pin="1" pinfunction="IN" pintype="power_in"/>
       <node ref="U17" pin="3" pinfunction="EN" pintype="input"/>
@@ -2872,6 +3042,13 @@
     </net>
     <net code="3" name="-5V">
       <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C63" pin="1" pintype="passive"/>
+      <node ref="C65" pin="1" pintype="passive"/>
+      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C71" pin="1" pintype="passive"/>
+      <node ref="C73" pin="1" pintype="passive"/>
       <node ref="R73" pin="1" pintype="passive"/>
       <node ref="R74" pin="2" pintype="passive"/>
       <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
@@ -2886,7 +3063,7 @@
     </net>
     <net code="4" name="/Power/Power">
       <node ref="J2" pin="1" pintype="passive"/>
-      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
     </net>
     <net code="5" name="/Vsig_female">
       <node ref="J1" pin="T" pintype="passive"/>
@@ -2905,11 +3082,26 @@
       <node ref="C57" pin="2" pintype="passive"/>
       <node ref="C58" pin="2" pintype="passive"/>
       <node ref="C59" pin="2" pintype="passive"/>
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C62" pin="1" pintype="passive"/>
+      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C64" pin="1" pintype="passive"/>
+      <node ref="C65" pin="2" pintype="passive"/>
+      <node ref="C66" pin="1" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
+      <node ref="C68" pin="1" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
+      <node ref="C71" pin="2" pintype="passive"/>
+      <node ref="C72" pin="1" pintype="passive"/>
+      <node ref="C73" pin="2" pintype="passive"/>
       <node ref="D71" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="J1" pin="S" pintype="passive"/>
       <node ref="J2" pin="2" pintype="passive"/>
       <node ref="J2" pin="3" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
@@ -3668,53 +3860,57 @@
       <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive"/>
       <node ref="J2" pin="S2" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="149" name="Net-(R12-Pad2)">
+    <net code="149" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="150" name="Net-(R12-Pad2)">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="150" name="Net-(R31-Pad2)">
+    <net code="151" name="Net-(R31-Pad2)">
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="R32" pin="1" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="151" name="Net-(R73-Pad2)">
+    <net code="152" name="Net-(R73-Pad2)">
       <node ref="R73" pin="2" pintype="passive"/>
       <node ref="U8" pin="6" pinfunction="VREF" pintype="output"/>
     </net>
-    <net code="152" name="Net-(R75-Pad1)">
+    <net code="153" name="Net-(R75-Pad1)">
       <node ref="R75" pin="1" pintype="passive"/>
       <node ref="U10" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="153" name="Net-(R76-Pad1)">
+    <net code="154" name="Net-(R76-Pad1)">
       <node ref="R76" pin="1" pintype="passive"/>
       <node ref="U11" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="154" name="Net-(R77-Pad1)">
+    <net code="155" name="Net-(R77-Pad1)">
       <node ref="R77" pin="1" pintype="passive"/>
       <node ref="U12" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="155" name="Net-(R78-Pad1)">
+    <net code="156" name="Net-(R78-Pad1)">
       <node ref="R78" pin="1" pintype="passive"/>
       <node ref="U13" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="156" name="Net-(R79-Pad1)">
+    <net code="157" name="Net-(R79-Pad1)">
       <node ref="R79" pin="1" pintype="passive"/>
       <node ref="U14" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="157" name="Net-(R80-Pad1)">
+    <net code="158" name="Net-(R80-Pad1)">
       <node ref="R80" pin="1" pintype="passive"/>
       <node ref="U15" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="158" name="Net-(R81-Pad1)">
+    <net code="159" name="Net-(R81-Pad1)">
       <node ref="R81" pin="1" pintype="passive"/>
       <node ref="U16" pin="7" pinfunction="REF_OUT" pintype="passive"/>
     </net>
-    <net code="159" name="Net-(RV2-Pad2)">
+    <net code="160" name="Net-(RV2-Pad2)">
       <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U18" pin="1" pinfunction="+" pintype="input"/>
     </net>
-    <net code="160" name="Rhi_Value">
+    <net code="161" name="Rhi_Value">
       <node ref="U10" pin="6" pinfunction="RHI" pintype="passive"/>
       <node ref="U11" pin="6" pinfunction="RHI" pintype="passive"/>
       <node ref="U12" pin="6" pinfunction="RHI" pintype="passive"/>
@@ -3725,42 +3921,42 @@
       <node ref="U18" pin="3" pinfunction="-" pintype="input"/>
       <node ref="U18" pin="4" pintype="output"/>
     </net>
-    <net code="161" name="VBass">
+    <net code="162" name="VBass">
       <node ref="C44" pin="2" pintype="passive"/>
       <node ref="R67" pin="1" pintype="passive"/>
       <node ref="U11" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="162" name="VBrilliance">
+    <net code="163" name="VBrilliance">
       <node ref="C49" pin="2" pintype="passive"/>
       <node ref="R72" pin="1" pintype="passive"/>
       <node ref="U16" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="163" name="VLowerMidrange">
+    <net code="164" name="VLowerMidrange">
       <node ref="C45" pin="2" pintype="passive"/>
       <node ref="R68" pin="1" pintype="passive"/>
       <node ref="U12" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="164" name="VMidrange">
+    <net code="165" name="VMidrange">
       <node ref="C46" pin="2" pintype="passive"/>
       <node ref="R69" pin="1" pintype="passive"/>
       <node ref="U13" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="165" name="VPresence">
+    <net code="166" name="VPresence">
       <node ref="C48" pin="2" pintype="passive"/>
       <node ref="R71" pin="1" pintype="passive"/>
       <node ref="U15" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="166" name="VSubBass">
+    <net code="167" name="VSubBass">
       <node ref="C43" pin="2" pintype="passive"/>
       <node ref="R66" pin="1" pintype="passive"/>
       <node ref="U10" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="167" name="VUpperMidrange">
+    <net code="168" name="VUpperMidrange">
       <node ref="C47" pin="2" pintype="passive"/>
       <node ref="R70" pin="1" pintype="passive"/>
       <node ref="U14" pin="5" pinfunction="SIG" pintype="input"/>
     </net>
-    <net code="168" name="Vsig">
+    <net code="169" name="Vsig">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
@@ -3770,79 +3966,79 @@
       <node ref="R57" pin="1" pintype="passive"/>
       <node ref="SW1" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="169" name="unconnected-(J1-PadR)">
+    <net code="170" name="unconnected-(J1-PadR)">
       <node ref="J1" pin="R" pintype="passive"/>
     </net>
-    <net code="170" name="unconnected-(RV1-Pad3)">
+    <net code="171" name="unconnected-(RV1-Pad3)">
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="171" name="unconnected-(U1-Pad12)">
+    <net code="172" name="unconnected-(U1-Pad12)">
       <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="172" name="unconnected-(U1-Pad13)">
+    <net code="173" name="unconnected-(U1-Pad13)">
       <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="173" name="unconnected-(U1-Pad14)">
+    <net code="174" name="unconnected-(U1-Pad14)">
       <node ref="U1" pin="14" pintype="output"/>
     </net>
-    <net code="174" name="unconnected-(U2-Pad12)">
+    <net code="175" name="unconnected-(U2-Pad12)">
       <node ref="U2" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="175" name="unconnected-(U2-Pad13)">
+    <net code="176" name="unconnected-(U2-Pad13)">
       <node ref="U2" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="176" name="unconnected-(U2-Pad14)">
+    <net code="177" name="unconnected-(U2-Pad14)">
       <node ref="U2" pin="14" pintype="output"/>
     </net>
-    <net code="177" name="unconnected-(U3-Pad12)">
+    <net code="178" name="unconnected-(U3-Pad12)">
       <node ref="U3" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="178" name="unconnected-(U3-Pad13)">
+    <net code="179" name="unconnected-(U3-Pad13)">
       <node ref="U3" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="179" name="unconnected-(U3-Pad14)">
+    <net code="180" name="unconnected-(U3-Pad14)">
       <node ref="U3" pin="14" pintype="output"/>
     </net>
-    <net code="180" name="unconnected-(U4-Pad12)">
+    <net code="181" name="unconnected-(U4-Pad12)">
       <node ref="U4" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="181" name="unconnected-(U4-Pad13)">
+    <net code="182" name="unconnected-(U4-Pad13)">
       <node ref="U4" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="182" name="unconnected-(U4-Pad14)">
+    <net code="183" name="unconnected-(U4-Pad14)">
       <node ref="U4" pin="14" pintype="output"/>
     </net>
-    <net code="183" name="unconnected-(U5-Pad12)">
+    <net code="184" name="unconnected-(U5-Pad12)">
       <node ref="U5" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="184" name="unconnected-(U5-Pad13)">
+    <net code="185" name="unconnected-(U5-Pad13)">
       <node ref="U5" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="185" name="unconnected-(U5-Pad14)">
+    <net code="186" name="unconnected-(U5-Pad14)">
       <node ref="U5" pin="14" pintype="output"/>
     </net>
-    <net code="186" name="unconnected-(U6-Pad12)">
+    <net code="187" name="unconnected-(U6-Pad12)">
       <node ref="U6" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="187" name="unconnected-(U6-Pad13)">
+    <net code="188" name="unconnected-(U6-Pad13)">
       <node ref="U6" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="188" name="unconnected-(U6-Pad14)">
+    <net code="189" name="unconnected-(U6-Pad14)">
       <node ref="U6" pin="14" pintype="output"/>
     </net>
-    <net code="189" name="unconnected-(U7-Pad12)">
+    <net code="190" name="unconnected-(U7-Pad12)">
       <node ref="U7" pin="12" pinfunction="+" pintype="input"/>
     </net>
-    <net code="190" name="unconnected-(U7-Pad13)">
+    <net code="191" name="unconnected-(U7-Pad13)">
       <node ref="U7" pin="13" pinfunction="-" pintype="input"/>
     </net>
-    <net code="191" name="unconnected-(U7-Pad14)">
+    <net code="192" name="unconnected-(U7-Pad14)">
       <node ref="U7" pin="14" pintype="output"/>
     </net>
-    <net code="192" name="unconnected-(U8-Pad7)">
+    <net code="193" name="unconnected-(U8-Pad7)">
       <node ref="U8" pin="7" pinfunction="OSC" pintype="input"/>
     </net>
-    <net code="193" name="unconnected-(U17-Pad4)">
+    <net code="194" name="unconnected-(U17-Pad4)">
       <node ref="U17" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
