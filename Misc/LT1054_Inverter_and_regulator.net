@@ -1,0 +1,14 @@
+* D:\ECE_Projects\Music_Visualizer\Misc\LT1054_Inverter_and_regulator.asc
+XU1 VFb N001 0 N002 Vout Vref NC_01 Vin LT1054
+V1 Vin 0 9
+R1 VFb Vref 20k
+R2 VFb Vout 102k
+R3 Vout 0 100
+C5 N001 N002 10µ
+C6 Vin 0 2µ
+C7 Vout VFb 0.002µ
+C8 0 Vout 100µ
+.tran 30m uic
+.lib LT1054.sub
+.backanno
+.end

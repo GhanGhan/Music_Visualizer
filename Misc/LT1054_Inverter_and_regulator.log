@@ -1,30 +1,60 @@
 Circuit: * D:\ECE_Projects\Music_Visualizer\Misc\LT1054_Inverter_and_regulator.asc
 
 Per .tran options, skipping operating point for transient analysis.
-Heightened Def Con from 4.89654e-005 to 4.89664e-005
-Heightened Def Con from 0.000127054 to 0.000127055
-Heightened Def Con from 0.000174289 to 0.00017429
-Heightened Def Con from 0.000206808 to 0.000206809
-Heightened Def Con from 0.000245284 to 0.000245285
-Heightened Def Con from 0.000442674 to 0.000442675
-Heightened Def Con from 0.000529457 to 0.000529458
-Heightened Def Con from 0.000599535 to 0.000599536
-Heightened Def Con from 0.000687206 to 0.000687207
+Heightened Def Con from 0.000126679 to 0.00012668
+Heightened Def Con from 0.000285134 to 0.000285135
+Heightened Def Con from 0.000293392 to 0.000293393
+Heightened Def Con from 0.0004908 to 0.000490801
+Heightened Def Con from 0.000522035 to 0.000522036
+Heightened Def Con from 0.000600709 to 0.00060071
+Heightened Def Con from 0.000719805 to 0.000719806
+Heightened Def Con from 0.0007239 to 0.000723901
+Heightened Def Con from 0.00080709 to 0.000807091
+Heightened Def Con from 0.000916512 to 0.000916513
+Heightened Def Con from 0.00357376 to 0.00357376
+Heightened Def Con from 0.00487954 to 0.00487954
+Heightened Def Con from 0.00823815 to 0.00823815
+Heightened Def Con from 0.0083962 to 0.0083962
+Heightened Def Con from 0.00978035 to 0.00978035
+Heightened Def Con from 0.0105716 to 0.0105716
+Heightened Def Con from 0.010769 to 0.010769
+Heightened Def Con from 0.0132577 to 0.0132577
+Heightened Def Con from 0.0134552 to 0.0134552
+Heightened Def Con from 0.0138907 to 0.0138907
+Heightened Def Con from 0.0145228 to 0.0145228
+Heightened Def Con from 0.0164222 to 0.0164222
+Heightened Def Con from 0.0172519 to 0.0172519
+Heightened Def Con from 0.0184768 to 0.0184768
+Heightened Def Con from 0.0208075 to 0.0208075
+Heightened Def Con from 0.0208475 to 0.0208475
+Heightened Def Con from 0.0215196 to 0.0215196
+Heightened Def Con from 0.0221512 to 0.0221512
+Heightened Def Con from 0.0223093 to 0.0223093
+Heightened Def Con from 0.022626 to 0.022626
+Heightened Def Con from 0.0240882 to 0.0240882
+Heightened Def Con from 0.0245237 to 0.0245237
+Heightened Def Con from 0.0249187 to 0.0249187
+Heightened Def Con from 0.0253538 to 0.0253538
+Heightened Def Con from 0.0261426 to 0.0261426
+Heightened Def Con from 0.0267358 to 0.0267358
+Heightened Def Con from 0.0274472 to 0.0274472
+Heightened Def Con from 0.0277234 to 0.0277234
+Heightened Def Con from 0.0297786 to 0.0297786
 
-Date: Mon Jul 18 15:39:26 2022
-Total elapsed time: 2.865 seconds.
+Date: Thu Feb 09 22:03:11 2023
+Total elapsed time: 1.636 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 429844
-traniter = 429844
-tranpoints = 124183
-accept = 90865
-rejected = 33327
+totiter = 432384
+traniter = 432384
+tranpoints = 120930
+accept = 87665
+rejected = 33304
 matrix size = 19
 fillins = 9
 solver = Normal
 Matrix Compiler1: 1.20 KB object code size  0.3/0.2/[0.1]
-Matrix Compiler2: 1.50 KB object code size  0.1/0.2/[0.1]
+Matrix Compiler2: 1.50 KB object code size  0.2/0.2/[0.1]
 

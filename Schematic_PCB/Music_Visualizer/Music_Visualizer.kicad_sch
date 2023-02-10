@@ -3015,8 +3015,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 07ee7e0f-2985-4d61-9b50-269fb321160d)
     (property "Reference" "C7" (id 0) (at 77.47 116.84 90))
-    (property "Value" "" (id 1) (at 77.47 119.38 90))
-    (property "Footprint" "" (id 2) (at 81.28 123.4948 0)
+    (property "Value" "13n" (id 1) (at 77.47 119.38 90))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 81.28 123.4948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 124.46 0)
@@ -3596,7 +3596,7 @@
     (property "Reference" "R24" (id 0) (at 130.81 233.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 130.81 236.2199 0)
+    (property "Value" "19.1k" (id 1) (at 130.81 236.2199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 126.492 234.95 90)
@@ -4548,8 +4548,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 671fc4a8-8b88-4bcb-9c54-7c1fba0aad0e)
     (property "Reference" "C10" (id 0) (at 137.16 129.54 90))
-    (property "Value" "" (id 1) (at 137.16 132.08 90))
-    (property "Footprint" "" (id 2) (at 140.97 136.1948 0)
+    (property "Value" "6.8n" (id 1) (at 137.16 132.08 90))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 140.97 136.1948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 137.16 0)
@@ -5168,8 +5168,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 83d23cec-73ff-46df-90f0-af0a3e52ad46)
     (property "Reference" "C9" (id 0) (at 137.16 116.84 90))
-    (property "Value" "" (id 1) (at 137.16 119.38 90))
-    (property "Footprint" "" (id 2) (at 140.97 123.4948 0)
+    (property "Value" "6.8n" (id 1) (at 137.16 119.38 90))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 140.97 123.4948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 137.16 124.46 0)
@@ -6228,7 +6228,7 @@
     (property "Reference" "R27" (id 0) (at 187.96 233.6799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 187.96 236.2199 0)
+    (property "Value" "18.7k" (id 1) (at 187.96 236.2199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0201_0603Metric" (id 2) (at 183.642 234.95 90)
@@ -7500,8 +7500,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid f487e740-61ea-48e8-a052-40ab7e8322a0)
     (property "Reference" "C8" (id 0) (at 77.47 129.54 90))
-    (property "Value" "" (id 1) (at 77.47 132.08 90))
-    (property "Footprint" "" (id 2) (at 81.28 136.1948 0)
+    (property "Value" "13n" (id 1) (at 77.47 132.08 90))
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 81.28 136.1948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 77.47 137.16 0)
@@ -7806,11 +7806,11 @@
     (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/749f3326-f407-454c-9615-55cb8a919d61"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/21a0d5b9-4532-462a-b222-783efa70e233"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/fbbe1fa2-c5da-4d54-96b5-940791a713dd"
       (reference "#FLG03") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
+    (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/edbb08b9-a6bc-45d0-889d-7924891dbc67"
+      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/5633cbad-15d0-469a-972b-d5c974b7291e"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
@@ -7980,9 +7980,6 @@
     (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/95537382-6d48-489d-a442-e69e1a557559"
       (reference "#PWR056") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/e4fcda79-1137-4c2c-a9d6-4b6122edba87"
-      (reference "#PWR057") (unit 1) (value "-5V") (footprint "")
-    )
     (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/ac53abec-9b90-408c-8fa1-04c26bd4ed05"
       (reference "#PWR058") (unit 1) (value "+9V") (footprint "")
     )
@@ -8147,6 +8144,9 @@
     )
     (path "/6794bcf3-92b0-4c47-9ee3-fd8b1423e421"
       (reference "#PWR0112") (unit 1) (value "-5V") (footprint "")
+    )
+    (path "/d77592bc-5812-4255-9ac4-28fcc93efec5/efa0b5dd-fae2-4f37-86f2-2228dd6f0e00"
+      (reference "#PWR?") (unit 1) (value "-5V") (footprint "")
     )
     (path "/d3791e18-fb94-4a94-9f9d-30d4fd98db8e"
       (reference "C1") (unit 1) (value "47n") (footprint "Capacitor_SMD:C_0201_0603Metric")
