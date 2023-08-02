@@ -3275,6 +3275,11 @@
     (uuid ef6e9b8a-43a3-43c9-8cab-2c1ce815a2f1)
   )
 
+  (label "3.5V" (at 468.63 207.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 98172a3a-6718-4ac0-8ad7-5fd5f6f0dcfd)
+  )
+
   (global_label "LED_Brightness_Control" (shape input) (at 80.01 266.7 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 07301f7c-47e4-489f-8683-4333cc816e29)
