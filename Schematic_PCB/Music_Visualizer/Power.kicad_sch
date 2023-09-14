@@ -956,7 +956,6 @@
     )
   )
 
-
   (junction (at 88.9 125.73) (diameter 0) (color 0 0 0 0)
     (uuid 037c09b6-44b8-4381-a90a-5c85a64ed140)
   )
@@ -1347,8 +1346,8 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2e877dbb-6832-4630-bc2c-069ff902df6b)
     (property "Reference" "R82" (id 0) (at 91.44 58.42 90))
-    (property "Value" "" (id 1) (at 88.9 58.42 90))
-    (property "Footprint" "" (id 2) (at 83.312 58.42 90)
+    (property "Value" "620" (id 1) (at 88.9 58.42 90))
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (id 2) (at 83.312 58.42 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/sdr-e.pdf" (id 3) (at 85.09 58.42 0)
