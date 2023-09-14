@@ -1,0 +1,66 @@
+Circuit: * D:\ECE_Projects\Music_Visualizer\Spectrum_Filters\Final_Filters\Final_No_Buffer\FinalBrillianceFilter.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+Gmin = 1.86414
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 1.74088
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 1.73914
+vernier = 0.00520833
+vernier = 0.00260417
+vernier = 0.00130208
+Gmin = 1.73012
+vernier = 0.00173611
+vernier = 0.00231481
+vernier = 0.00115741
+vernier = 0.000578703
+Gmin = 1.72505
+vernier = 0.000771604
+Gmin = 1.72215
+vernier = 0.00102881
+vernier = 0.00137174
+vernier = 0.00068587
+vernier = 0.000514403
+Gmin = 1.71916
+vernier = 0.00068587
+Gmin = 1.71658
+vernier = 0.000914493
+vernier = 0.000457246
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon Sep 11 15:29:32 2023
+Total elapsed time: 3.767 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7006
+traniter = 2110
+tranpoints = 1056
+accept = 1055
+rejected = 1
+matrix size = 109
+fillins = 1175
+solver = Normal
+Thread vector: 12.6/11.1[2] 2.7/3.1[1] 2.9/3.8[1] 1.4/3.3[1]  2592/500
+Matrix Compiler1: 116.97 KB object code size  20.1/9.3/[4.3]
+Matrix Compiler2: 28.81 KB object code size  8.9/5.6/[3.0]
+
