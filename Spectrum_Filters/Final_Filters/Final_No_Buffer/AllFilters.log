@@ -1,21 +1,22 @@
 Circuit: * D:\ECE_Projects\Music_Visualizer\Spectrum_Filters\Final_Filters\Final_No_Buffer\AllFilters.asc
 
-WARNING: Less than two connections to node VI.  This node is used by V1.
+WARNING: Less than two connections to node NC_01.  This node is used by V0.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
 vernier = 0.5
+Gmin = 1.86414
 vernier = 0.25
 vernier = 0.125
 vernier = 0.0625
-Gmin = 8.61953
 vernier = 0.03125
+Gmin = 1.82123
 vernier = 0.015625
 vernier = 0.0078125
 vernier = 0.00390625
-Gmin = 8.47038
 vernier = 0.00195313
+Gmin = 1.81679
 vernier = 0.000976563
 vernier = 0.000488281
 Gmin = 0
@@ -29,20 +30,21 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Wed Sep 13 19:31:07 2023
-Total elapsed time: 1.723 seconds.
+Date: Mon Oct 02 01:25:11 2023
+Total elapsed time: 152.967 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 1633
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 575
-fillins = 3511
+method = modified trap
+totiter = 11727
+traniter = 9985
+tranpoints = 4990
+accept = 3754
+rejected = 1236
+matrix size = 576
+fillins = 22595
 solver = Normal
-Matrix Compiler1:   18978 opcodes
-Matrix Compiler2: 106.66 KB object code size  21.1/15.2/[13.1]
+Thread vector: 144.0/115.4[4] 60.0/25.0[4] 140.5/46.4[4] 39.2/46.8[1]  2592/500
+Matrix Compiler1: 8.21 MB object code size  3680.9/2368.0/[2490.5]
+Matrix Compiler2: 413.85 KB object code size  596.8/370.7/[145.2]
 
