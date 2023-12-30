@@ -1,0 +1,68 @@
+{
+	"Name": "Low-Midrange Filter",
+	"Description": "Pass frequencies between 250 and 500 Hz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 250,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 5000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": 51,
+			"centerFrequency": 354
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "Power",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 87,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 84,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 91,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT6023"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1,
+				2
+			]
+		},
+		"tolerances": {},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-20 09:43:31 PM",
+	"UpdatedDate": "2022-04-20 09:43:31 PM"
+}

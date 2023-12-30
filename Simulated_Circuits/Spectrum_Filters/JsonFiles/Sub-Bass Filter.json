@@ -1,0 +1,68 @@
+{
+	"Name": "Sub-Bass Filter",
+	"Description": "Pass frequencies between 20 and 60 Hz",
+	"Tool": "FW",
+	"Version": "1.1",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components"
+		],
+		"filterType": "bandPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 40,
+			"stopbandAttenuation": -60,
+			"stopbandFrequency": 450,
+			"filterResponseValue": 0,
+			"filterResponseSlider": 50,
+			"centerFrequency": 35
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": -5,
+			"optimization": "Power",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 112,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT1495"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 106,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT1495"
+				},
+				{
+					"stageLetter": "C",
+					"componentSizing": 117,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "deliyannisFriend",
+					"opAmps": "LT1495"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				0,
+				1,
+				2
+			]
+		},
+		"tolerances": {},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2022-04-24 07:14:29 PM",
+	"UpdatedDate": "2022-04-24 07:14:29 PM"
+}
