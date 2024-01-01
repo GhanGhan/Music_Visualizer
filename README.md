@@ -2,9 +2,22 @@
 The device recieves an audio signal from a 3.5mm jack (i.e. and headphone jack) that is connected to any analog sound source.  The audio signal is then seperated into the **7 music frequency ranges** and their respective volumes' are then **displayed on LED's using a logorithmic scale.**
 The brightness of the LEDs and the maximum value of the logorithmic scale can be adjusted by the user!
    
-Detailed Summary      
-•	Separate’s audio signal into the 7 music frequency bands; Sub-Bass, Bass, Low-Midrange, Midrange, Upper-Midrange, Presence and Brilliance by using 6th order active     Butterworth (i.e. Sallen-Key topology) bandpass filters     
-•	Volume for each frequency band will be represented using 10 LED’s on a logarithmic scale      
-•	LED’s will be driven with the LM3915 IC which will allow for the LED brightness and volume level comparison to be tunable     
-•	All sub-circuits are built and tested in LTspice      
-•	The PCB for the circuit will be designed using KiCad      
+## Summary of Functionality
+- Can change input source to a male or female jack using a slide switch, both of which are single channel
+- Can safely handle a differential input voltage signal of up to 32V
+- Uses 6th order 60dB/decade active Butterworth filters to segment the signal into 7 spectrums
+- Both the birghtness of the LEDs and maximum scale voltage can be changed using logorithmic potentiometers
+   - ** Due to how signal is processed by the filters, the maximum value of the volume scale is 3.5V
+- 10 LEDS are used to display the volume of each spectrum as a percentage of the max value of the volume scale
+   - 4 Blue LEDs     [4% : 12%]
+   - 3 Yellow LEDS   [12% : 35%]
+   - 3 Red LEDS      [35% : 100%]
+## Contained in Repository
+- Spice design files (made using LTSpice)
+- Schematic Capture and PCB layout (designed in KiCAD)
+- Bill-of-Materials BOM
+- Other important documents:
+   - Sound characterization
+   - Measured Frequency response
+   - Docs related to properites of critical electrical components
+  
