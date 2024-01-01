@@ -1,5 +1,7 @@
-Overview      
-The circuit will receive an an audio signal from a 3.5mm jack that is connected to a computer or some other mobile device. Afterwards the music will be separated into 7 frequency bands. The volume of each band will be displayed on an LED Decibel meter.      
+# Overview      
+The device recieves an audio signal from a 3.5mm jack (i.e. and headphone jack) that is connected to any analog sound source.  The audio signal is then seperated into the **7 music frequency ranges** and their respective volumes' are then **displayed on LED's using a logorithmic scale.**
+The brightness of the LEDs and the maximum value of the logorithmic scale can be adjusted by the user!
+   
 Detailed Summary      
 •	Separate’s audio signal into the 7 music frequency bands; Sub-Bass, Bass, Low-Midrange, Midrange, Upper-Midrange, Presence and Brilliance by using 6th order active     Butterworth (i.e. Sallen-Key topology) bandpass filters     
 •	Volume for each frequency band will be represented using 10 LED’s on a logarithmic scale      
