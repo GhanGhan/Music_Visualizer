@@ -1,5 +1,5 @@
 # Overview      
-The device recieves an audio signal from a 3.5mm jack (i.e. and headphone jack) that is connected to any analog sound source.  The audio signal is then seperated into the **7 music frequency ranges** and their respective volumes' are then **displayed on LED's using a logorithmic scale.**
+The device receives an audio signal from a 3.5mm jack (i.e. a headphone jack) that is connected to any analog sound source. The audio signal is then separated into the **7 music frequency ranges** and their respective volumes' are then **displayed on 10 LED's using a logorithmic scale.**
 The brightness of the LEDs and the maximum value of the logorithmic scale can be adjusted by the user!
    
 ## Summary of Functionality
