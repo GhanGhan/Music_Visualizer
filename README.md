@@ -53,10 +53,31 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 │   ├── Power.kicad_sch
 │   ├── fp-info-cache
 │   ├── fp-lib-table
-│   ├── sym-lib-table
-├── dist (or build
-├── node_modules
-├── package.json
-├── package-lock.json
-└── .gitignore
+│   └── sym-lib-table
+└── Simulated Circuits
+    ├── Entire_Circuit 
+    │   ├── Full_Visualizer.asc
+    │   └── LM324.txt
+    ├── Filters_With_LED_Drivers
+    │   ├── FinalBassFilterWithLEDDriver.asc
+    │   ├── FinalBrillianceFilterWithLEDDriver.asc
+    │   ├── FinalLowMidrangeWithLEDDriver.asc
+    │   ├── FinalMidrangeFilterWithLEDDriver.asc
+    │   ├── FinalPresenceFilterWithLEDDriver.asc
+    │   ├── FinalSubBassFilterWithLEDDriver.asc
+    │   ├── FinalUpperMidrangeFilterWithLEDDriver.asc
+    │   └── LM324.txt
+    ├── LED_Driving
+    │   ├── LM3915_Base_Circuit.asc
+    │   ├── LM3915_Chain.asc
+    │   ├── RhiControl_LTC1250.asc
+    │   └── Voltage_Follower_Replacement.asc
+    ├── Power
+    │   ├── LT1054_Inverter_and_regulator.asc
+    │   └── Reverse_Voltage_Protection.asc
+    └── Spectrum_Filters
+        ├── Final_Filters
+        ├── Ideal_Filters
+        ├── JsonFiles
+        └── Real_Filters
   
