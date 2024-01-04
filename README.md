@@ -20,4 +20,43 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
    - Sound characterization
    - Measured Frequency response
    - Docs related to properites of critical electrical components
+
+# Repository Structure
+```
+├── Documents
+│   ├── BOM_Final.xlsx
+│   ├── LED Driver IC.xlsx
+│   ├── MaxIoOfEachFilterStage.xlsx
+│   ├── Measured_Frequency_Response.xlsx
+│   ├── Sound_Characterization.xlsx
+│   └── Trace width vs current.xlsx
+├── Schematic_PCB/Music_Visualizer
+│   ├── Music_Visualizer-backups
+│   ├── Project Library
+│   │   ├── DC_Power_Jack
+│   │   ├── Female_Audio_Jack
+│   │   ├── LM3915_LED_Driver
+│   │   ├── Linear_Voltage_Regulator
+│   │   ├── PTV09A_Pot_Vertical
+│   │   ├── PTV09A_Vert
+│   │   ├── PW_On_Off_Switch
+│   │   ├── Slide_Switch
+│   │   ├── License.txt
+│   │   └── how-to-import.htm
+│   ├── Music_Visualizer.csv
+│   ├── Music_Visualizer.kicad_pcb
+│   ├── Music_Visualizer.kicad_prl
+│   ├── Music_Visualizer.kicad_pro
+│   ├── Music_Visualizer.kicad_sch
+│   ├── Music_Visualizer.wbk
+│   ├── Music_Visualizer.xml
+│   ├── Power.kicad_sch
+│   ├── fp-info-cache
+│   ├── fp-lib-table
+│   ├── sym-lib-table
+├── dist (or build
+├── node_modules
+├── package.json
+├── package-lock.json
+└── .gitignore
   
