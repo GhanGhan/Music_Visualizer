@@ -114,4 +114,9 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 - LED Driver IC: Comparison of the simulated characteristics and values found from breadboarding
 - MaxIoOfEachFilterStage: Maximum possible current being output by each op-amp of each stage of every filter
 - Sound Characterization: Shows voltages that were outputed from the audio jack the device was tested on, bandwidth and corner frequency of each spectrum, and steps of the volume-meter
-
+## Music Visualizer
+- Project_Library: contains .step files (3-Models) of the DC power jack, female audio jack, -5V Inverter & Regulator, potentiometer, On/Off switch and slide switch
+- Music_Visualizer.kicad_pcb: PCB layout file
+- Music_Visualizer.kicad_sch: Main schematic layout file
+- Music_Visualizer.kicad_pro: Music Visualizer KiCad File
+- Rest of the files are either self explanatory of support files for the KiCad program
