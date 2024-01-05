@@ -106,4 +106,12 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
             ├── RealSubBassFilter.asc
             ├── RealUpperMidrangeFilter.asc
             └── LM324.txt
-  
+  ```
+# Folder Explanation
+## Documents
+- BOM_Final: The project Bill-Of-Materials (BOM)
+   - Shows all the components that were used, the quantity of each, the prices, model number and where they were sourced from
+- LED Driver IC: Comparison of the simulated characteristics and values found from breadboarding
+- MaxIoOfEachFilterStage: Maximum possible current being output by each op-amp of each stage of every filter
+- Sound Characterization: Shows voltages that were outputed from the audio jack the device was tested on, bandwidth and corner frequency of each spectrum, and steps of the volume-meter
+
