@@ -39,14 +39,26 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 ├── Schematic_PCB/Music_Visualizer
 │   ├── Music_Visualizer-backups
 │   ├── Project Library
-│   │   ├── DC_Power_Jack
+│   ├── DC_Power_Jack
+│   │   │   ├── CUI_DEVICES_PJ-079BH.step
+│   │   │   ├── CUI_DEVICES.kicad_mod
+│   │   │   └── PJ-079BH.lib
 │   │   ├── Female_Audio_Jack
+│   │   │   └── SJ-3523-SMT-TR--3DModel-STEP-56544.step
 │   │   ├── LM3915_LED_Driver
+│   │   │   └── LM3915N-1.lib
 │   │   ├── Linear_Voltage_Regulator
+│   │   │   ├── DIP794W45P254L959H508Q8.kicad_mod
+│   │   │   └── LT1054IPE4.step
 │   │   ├── PTV09A_Pot_Vertical
-│   │   ├── PTV09A_Vert
+│   │   │   ├── PTV09.kicad_mod
+│   │   │   └── PTV09A-4225F-B104.step
 │   │   ├── PW_On_Off_Switch
+│   │   │   ├── E-SWITCH_RR511D1121.kicad_mod
+│   │   │   └── RR511D1121.step
 │   │   ├── Slide_Switch
+│   │   │   ├── OS102011MS2QN1.step
+│   │   │   └── SW_OS102011MS2QN1.kicad_mod
 │   │   ├── License.txt
 │   │   └── how-to-import.htm
 │   ├── Music_Visualizer.csv
@@ -116,10 +128,11 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 - **MaxIoOfEachFilterStage:** Maximum possible current being output by each op-amp of each stage of every filter
 - **Sound Characterization:** Shows voltages that were outputted from the audio jack the device was tested on, bandwidth and corner frequency of each spectrum, and steps of the volume-meter
 ## Schematic_PCB\Music Visualizer (KiCad Folder)
-- **Project_Library:** contains .step files (3-Models) of the DC power jack, female audio jack, -5V Inverter & Regulator, potentiometer, On/Off switch and slide switch
+- **Project_Library:** Contains nesseccary .step files (3D models), .lib files (schematic symbols) and/or .kicad_mod files (PCB footprint)  of the DC power jack, female audio jack, LED driver, -5V Inverter & Regulator, potentiometer, On/Off rocker switch switch and slide switch.
+    - If any of the file types for any of the circuit elements is not included in the associated sub-folder of the 'Project Library then it is provided by the programs 'Global Library'.
 - **Music_Visualizer.kicad_pcb:** PCB layout file
-- **Music_Visualizer.kicad_sch:** Main schematic layout file
-- **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File
+- **Music_Visualizer.kicad_sch:** Main schematic layout file.  Contains the Power.kicad_sch and LED_driver.kicad_sch schematics as well
+- **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File.  When clicked it opens up a directory that allows you to access the PCB layout file and schematic layout file.
 - Rest of the files are either self explanatory of support files for the KiCad program
 ## Simulated_Circuits
 - **Entire Circuit\Full_Visualizer.asc:** A spice file that contains the 7 spectrum filters being driven by the input signal that contains a frequency from each of the spectrums.  Each of the filters is driving one of the ICs in the LM3915_Chain circuit.  By changing the value of RadjPot1 one can change the current going through the LEDs -> their brightness.  By changing the ratio of R67 and R68 you can change the reference frequency the input signal is compared to.
