@@ -1,7 +1,13 @@
 # Overview      
 The device receives an audio signal from a 3.5mm jack (i.e. a headphone jack) that is connected to any analog sound source. The audio signal is then separated into the **7 music frequency ranges** and their respective volumes' are then **displayed on 10 LED's using a logorithmic scale.**
 The brightness of the LEDs and the maximum value of the logorithmic scale can be adjusted by the user!
-   
+
+## Table of Contents
+1. Summary of Functionaity
+2. Contained in Respository
+3. Repository Structure
+4. Folder Explanation
+
 ## Summary of Functionality
 - Can change input source to a male or female jack using a slide switch, both of which are single channel
 - Can safely handle a differential input voltage signal of up to 32V
