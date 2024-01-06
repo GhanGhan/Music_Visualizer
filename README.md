@@ -6,7 +6,7 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 1. Summary of Functionaity
 2. Contained in Respository
 3. Repository Structure
-4. Folder Explanation
+4. Folder & Design File Explanation
 
 ## Summary of Functionality
 - Can change input source to a male or female jack using a slide switch, both of which are single channel
@@ -103,7 +103,7 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
             ├── Sub-Bass Filter.asc
             └── Upper-MidrangeFilter.asc
   ```
-# Folder Explanation
+# Folder & Design File Explanation
 ## Documents
 - **BOM_Final:** The project Bill-Of-Materials (BOM)
    - Shows all the components that were used, the quantity of each, the prices, model number and where they were sourced from
