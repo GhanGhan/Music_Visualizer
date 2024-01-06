@@ -83,8 +83,13 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
     │   └── Reverse_Voltage_Protection.asc
     └── Spectrum_Filters
         ├── Final_Filters
-        │   ├── Final_With_Buffer
-        │   ├── AllFiltersBuf_NonBuf.asc
+        │   ├── FinalBassFilterBuf.asc
+        │   ├── FinalBrillianceFilterBuf.asc
+        │   ├── FinalLowMidrangeBuf.asc
+        │   ├── FinalMidrangeFilterBuf.asc
+        │   ├── FinalPresenceFilterBuf.asc
+        │   ├── FinalSubBassFilterBuf.asc
+        │   ├── FinalUpperMidrangeFilterBuf.asc
         │   └── LM324.txt
         ├── Ideal_Filters
         │   ├── BassFilterSK.asc
