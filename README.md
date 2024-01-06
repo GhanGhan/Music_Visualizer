@@ -130,8 +130,13 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 ## Schematic_PCB\Music Visualizer (KiCad Folder)
 - **Project_Library:** Contains nesseccary .step files (3D models), .lib files (schematic symbols) and/or .kicad_mod files (PCB footprint)  of the DC power jack, female audio jack, LED driver, -5V Inverter & Regulator, potentiometer, On/Off rocker switch switch and slide switch.
     - If any of the file types for any of the circuit elements is not included in the associated sub-folder of the 'Project Library then it is provided by the programs 'Global Library'.
-- **Music_Visualizer.kicad_pcb:** PCB layout file
-- **Music_Visualizer.kicad_sch:** Main schematic layout file.  Contains the Power.kicad_sch and LED_driver.kicad_sch schematics as well
+- **Music_Visualizer.kicad_pcb:** PCB layout file for the entire project.
+- **Music_Visualizer.kicad_sch:** Main schematic layout file.
+    - Contains all 7 frequency spectrums based on the spice files in Simulated_Circuits\Spectrum_Filter\Final_Filter folder.
+    - Contains the Audio input circuit (male and female connections where a slide switch is used to choose one or the other), the mounting holes, and op amp bypass capacitors.
+    - Contains the Power.kicad_sch and LED_driver.kicad_sch schematics as well
+    - **Power.kicad_sch:** Contians circuit for the the +5V regulator, circuit to connect to external power supply with with reverse voltage protection  and -5V Inverter/Regulator, the latter 2 are based on the spice files in Simulatd_Circuits\Power.
+    - **Led_Driver.kicad_sch:** Contains the 7 LED drivers, LED brightness control and Rhi-Value Control Circuit based on the spice files in LED_Driving folder.
 - **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File.  When clicked it opens up a directory that allows you to access the PCB layout file and schematic layout file.
 - Rest of the files are either self explanatory of support files for the KiCad program
 ## Simulated_Circuits
