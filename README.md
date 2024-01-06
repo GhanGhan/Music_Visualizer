@@ -99,27 +99,27 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
   ```
 # Folder Explanation
 ## Documents
-- **BOM_Final**: The project Bill-Of-Materials (BOM)
+- **BOM_Final:** The project Bill-Of-Materials (BOM)
    - Shows all the components that were used, the quantity of each, the prices, model number and where they were sourced from
-- **LED Driver IC**: Comparison of the simulated characteristics and values found from breadboarding
-- **MaxIoOfEachFilterStage**: Maximum possible current being output by each op-amp of each stage of every filter
-- **Sound Characterization**: Shows voltages that were outputted from the audio jack the device was tested on, bandwidth and corner frequency of each spectrum, and steps of the volume-meter
+- **LED Driver IC:** Comparison of the simulated characteristics and values found from breadboarding
+- **MaxIoOfEachFilterStage:** Maximum possible current being output by each op-amp of each stage of every filter
+- **Sound Characterization:** Shows voltages that were outputted from the audio jack the device was tested on, bandwidth and corner frequency of each spectrum, and steps of the volume-meter
 ## Schematic_PCB\Music Visualizer (KiCad Folder)
-- **Project_Library**: contains .step files (3-Models) of the DC power jack, female audio jack, -5V Inverter & Regulator, potentiometer, On/Off switch and slide switch
-- **Music_Visualizer.kicad_pcb**: PCB layout file
-- **Music_Visualizer.kicad_sch**: Main schematic layout file
-- **Music_Visualizer.kicad_pro**: Music Visualizer KiCad File
+- **Project_Library:** contains .step files (3-Models) of the DC power jack, female audio jack, -5V Inverter & Regulator, potentiometer, On/Off switch and slide switch
+- **Music_Visualizer.kicad_pcb:** PCB layout file
+- **Music_Visualizer.kicad_sch:** Main schematic layout file
+- **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File
 - Rest of the files are either self explanatory of support files for the KiCad program
 ## Simulated_Circuits
-- **Entire Circuit\Full_Visualizer.asc**: A spice file that contains the 7 spectrum filters being driven by the input signal that contains a frequency from each of the spectrums.  Each of the filters is driving one of the ICs in the LM3915_Chain circuit.  By changing the value of RadjPot1 one can change the current going through the LEDs -> their brightness.  By changing the ratio of R67 and R68 you can change the reference frequency the input signal is compared to.
-    - **LM324.txt**: A text file that contains the 'macromodel' of the LM324 operational amplifier, allowing it to be used in spice files
-- **Filters_With_LED_Drivers**: Contains a spice file for every spectrum filter that driving an LM3915_Base_Circuit.  Also contains an LM324.txt file.
-- **LED_Driving**:
-    - **LM3915_Base_Circuit.asc**: Contains an LM3915 (the led driver) IC connected to 10 LEDs.  The IC is driven by a sinusoidal voltage source.  **Vref (Current reference pin)** is used to set the diode current to about 18mA using a grounded 680 ohm resistor.  It is powered by 9V and a voltage divider is used to set the **Vrhi (high-input reference-voltage)** which is 4.5V in this circuit.
-    - **LM3915_Chain.asc**: Contains 7 LM3915_Base circuits all driven by the same input AC voltage and high-input reference voltage.  The 680 ohm resistor of each LM3915_Base circuit is connected to a RadjPot.  This resistor acts as a potentiometer, changing its resistance allows one to adjust the current going through the LEDs of all of the LED drivers.
-    - **RhiControl_LTC1250.asc**: Connects to the high-input reference voltage pin of the LED driver IC.  R1 and R2 act as a potentiometer. A voltage follower is appended to the ouput of the 'potentiometer' because the average load voltage of the Vrhi pin is about 17.5kohm, when there are in parallel they equivalent reisistance is about 2.5kohm.  The voltage follower ensures that the voltage at the pins is is the same value as the output of the potentiometer.  This particular op-amp was chosen because it has a max input offset voltage of < |10uV|, this means that the voltage at the pin will always be within 10uV of the desired voltage.
-    - **Voltage_Follower_Replacement.asc**:  This is a common-collector circuit, a single transistor implementation of a current follower.  The 2N2222 transistor is used to replace the LTC1250 op-amp because it shorted the -5 and +5 terminals that it was being powered from.
-- **Spectrum_Filters**:
+- **Entire Circuit\Full_Visualizer.asc:** A spice file that contains the 7 spectrum filters being driven by the input signal that contains a frequency from each of the spectrums.  Each of the filters is driving one of the ICs in the LM3915_Chain circuit.  By changing the value of RadjPot1 one can change the current going through the LEDs -> their brightness.  By changing the ratio of R67 and R68 you can change the reference frequency the input signal is compared to.
+    - **LM324.txt:** A text file that contains the 'macromodel' of the LM324 operational amplifier, allowing it to be used in spice files
+- **Filters_With_LED_Drivers:** Contains a spice file for every spectrum filter that driving an LM3915_Base_Circuit.  Also contains an LM324.txt file.
+- **LED_Driving:**
+    - **LM3915_Base_Circuit.asc:** Contains an LM3915 (the led driver) IC connected to 10 LEDs.  The IC is driven by a sinusoidal voltage source.  **Vref (Current reference pin)** is used to set the diode current to about 18mA using a grounded 680 ohm resistor.  It is powered by 9V and a voltage divider is used to set the **Vrhi (high-input reference-voltage)** which is 4.5V in this circuit.
+    - **LM3915_Chain.asc:** Contains 7 LM3915_Base circuits all driven by the same input AC voltage and high-input reference voltage.  The 680 ohm resistor of each LM3915_Base circuit is connected to a RadjPot.  This resistor acts as a potentiometer, changing its resistance allows one to adjust the current going through the LEDs of all of the LED drivers.
+    - **RhiControl_LTC1250.asc:** Connects to the high-input reference voltage pin of the LED driver IC.  R1 and R2 act as a potentiometer. A voltage follower is appended to the ouput of the 'potentiometer' because the average load voltage of the Vrhi pin is about 17.5kohm, when there are in parallel they equivalent reisistance is about 2.5kohm.  The voltage follower ensures that the voltage at the pins is is the same value as the output of the potentiometer.  This particular op-amp was chosen because it has a max input offset voltage of < |10uV|, this means that the voltage at the pin will always be within 10uV of the desired voltage.
+    - **Voltage_Follower_Replacement.asc:**  This is a common-collector circuit, a single transistor implementation of a current follower.  The 2N2222 transistor is used to replace the LTC1250 op-amp because it shorted the -5 and +5 terminals that it was being powered from.
+- **Spectrum_Filters:**
     - **Final_Filters:** Folder contains the final filter design for the 7 spectrum filters; Sub-Bass, Bass, Low-Midrange, Midrange, Upper-Midrange, Presence and Brilliance.  Each filter is prepended with a voltage buffer to isolate themselves from the signal source.  This way the impedances of the filters do not affect each other.  Each filter also has a high-pass filter appended to it to prevent unintented activation of the LED driver due to the input-offset voltage of the LM324 op amps which can be as high as 7mV.
          - Also the resistor values in the final design are slightly different from the "ideal version".  This is because those resistances need at least two resistors in series or parallel to be realized.  The nominal resistor values choses for the final design are within 1.5% of the ideal value.  It was determined that this did not have a significant effect on the frequency response. 
     - **Ideal_Filters:** Folder contains design for idealized implementation of the 7 spectrum filters.  In these LTSpice files ideal op-amps are being used and all of the resistor values match the values provided from the Analog Filter Wizard.
