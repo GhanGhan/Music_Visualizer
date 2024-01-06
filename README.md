@@ -8,8 +8,9 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 3. Repository Structure
 4. Folder & Design File Explanation
 5. Generate Files for Fabrication
-6. Current Issues
-7. Acknowledgements
+7. Current Issues
+8. License
+9. Acknowledgements
 
 # Summary of Functionality
 - Can change input source to a male or female jack using a slide switch, both of which are single channel
@@ -164,6 +165,11 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 # Current Issues
 - The last stage of the sub-bass filter generates a power 343Hz wave on its own that is so powerful it activates all of the associated LEDS.  
 - The LT1054 op amp shorts the +5 and -5 power rails together and destroys itself in the process.  The is why it was replaced with a Common Collector circuit.
+
+# License
+- [![License: CC BY 3.0](https://img.shields.io/badge/License-CC%20BY%203.0-lightgrey.svg)](https://creativecommons.org/licenses/by/3.0/)
+- This project is licensed under the [Creative Commons Attribution 3.0 Unported License](https://creativecommons.org/licenses/by/3.0/).
+  
 # Acknoledgments
 - I would like to thank Snap EDA for providing me with the necessary step, kicad_mod and lib files.
 - I would like to thank the YouTube Channel "Phil's Lab" for making videos that allowed me to easily learn to use KiCad 6.
