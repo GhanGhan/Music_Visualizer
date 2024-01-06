@@ -7,6 +7,9 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
 2. Contained in Respository
 3. Repository Structure
 4. Folder & Design File Explanation
+5. Generate Files for Fabrication
+6. Current Issues
+7. Acknowledgements
 
 # Summary of Functionality
 - Can change input source to a male or female jack using a slide switch, both of which are single channel
@@ -155,4 +158,14 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
     - **JsonFiles:** The spectrum filters were designed using Analog Devices 'Analog Filter Wizard'.  Once you've inputted the specifications "Passband gain, corner frequency, bandwidth, stopband, center frequency, stages etc."  These are the saved specification files of the Analog filter Wizard for each filter.
          - The center frequency saved in these files are different from the actual center frequency of the filters because (for unidentified reasons) when the correct center frequency was inputted to wrong corner frequencies were outputed.  The center frequency contained in these files gives filters with the correct corner frequencies.
 
+# Generate Files for Fabrication
+- If you want to generate the Gerber and Drill files so that the project can be fabricated by a JLCPCB, follow the steps of this website: https://jlcpcb.com/help/article/16-How-to-generate-Gerber-and-Drill-files-in-KiCad-6
+
+# Current Issues
+- The last stage of the sub-bass filter generates a power 343Hz wave on its own that is so powerful it activates all of the associated LEDS.  
+- The LT1054 op amp shorts the +5 and -5 power rails together and destroys itself in the process.  The is why it was replaced with a Common Collector circuit.
+# Acknoledgments
+- I would like to thank Snap EDA for providing me with the necessary step, kicad_mod and lib files.
+- I would like to thank the YouTube Channel "Phil's Lab" for making videos that allowed me to easily learn to use KiCad 6.
+  
 
