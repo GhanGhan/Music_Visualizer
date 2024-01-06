@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name "DC_Power_Jack_PJ-079BH")(type "Legacy")(uri "${KIPRJMOD}/Project_Library/DC_Power_Jack/PJ-079BH.lib")(options "")(descr "DC Power Jack"))
 )
