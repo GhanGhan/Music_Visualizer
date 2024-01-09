@@ -1,6 +1,7 @@
 # Overview      
 The device receives an audio signal from a 3.5mm jack (i.e. a headphone jack) that is connected to any analog sound source. The audio signal is then separated into the **7 music frequency ranges** and their respective volumes' are then **displayed on 10 LED's using a logorithmic scale.**
 The brightness of the LEDs and the maximum value of the logorithmic scale can be adjusted by the user!
+![Full_3D_View](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/c1a8e4e7-99a0-4a1e-9c01-7bc1968a0fe4)
 
 # Table of Contents
 1. Summary of Functionaity
