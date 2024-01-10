@@ -23,6 +23,8 @@ The brightness of the LEDs and the maximum value of the logorithmic scale can be
    - 4 Blue LEDs     [4% : 12%]
    - 3 Yellow LEDS   [12% : 35%]
    - 3 Red LEDS      [35% : 100%]
+![Block Diagaram](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/5a0be6d4-ff8d-4974-a6ca-7c313b8ab329)
+
 # Contained in Repository
 - Spice design files (made using LTSpice)
 - Schematic Capture and PCB layout (designed in KiCAD)
