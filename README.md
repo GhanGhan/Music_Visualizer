@@ -153,8 +153,9 @@ The brightness of the LEDs and the maximum value of the decibal scale can be adj
     - **LM324.txt:** A text file that contains the 'macromodel' of the LM324 operational amplifier, allowing it to be used in spice files
 - **Filters_With_LED_Drivers:** Contains a spice file for every spectrum filter that driving an LM3915_Base_Circuit.  Also contains an LM324.txt file.
 - **LED_Driving:**
-    - **LM3915_Base_Circuit.asc:** Contains an LM3915 (the led driver) IC connected to 10 LEDs.  The IC is driven by a sinusoidal voltage source.  **Vref (Current reference pin)** is used to set the diode current to about 18mA using a grounded 680 ohm resistor.  It is powered by 9V and a voltage divider is used to set the **Vrhi (high-input reference-voltage)** which is 4.5V in this circuit.
-![Base_Driver](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/5913cec5-ef19-44f1-a083-2cdb0f034410)
+    - **LM3915_Base_Circuit.asc:** Contains an LM3915 (the led driver) IC connected to 10 LEDs.  The IC is driven by a sinusoidal voltage source.  **Vref (Current reference pin)** is used to set the diode current to about 18mA using a grounded 680 ohm resistor.  It is powered by 9V, and **Vrhi (high-input reference-voltage)** is set to 3.5V.
+![Base_DriverV2](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/26bce2fd-7e98-4d7b-9c52-f342392a84c2)
+
 
     - **LM3915_Chain.asc:** Contains 7 LM3915_Base circuits all driven by the same input AC voltage and high-input reference voltage.  The 680 ohm resistor of each LM3915_Base circuit is connected to a RadjPot.  This resistor acts as a potentiometer, changing its resistance allows one to adjust the current going through the LEDs of all of the LED drivers.
     - **RhiControl_LTC1250.asc:** Connects to the high-input reference voltage pin of the LED driver IC.  R1 and R2 act as a potentiometer. A voltage follower is appended to the ouput of the 'potentiometer' because the average load voltage of the Vrhi pin is about 17.5kohm, when there are in parallel they equivalent reisistance is about 2.5kohm.  The voltage follower ensures that the voltage at the pins is is the same value as the output of the potentiometer.  This particular op-amp was chosen because it has a max input offset voltage of < |10uV|, this means that the voltage at the pin will always be within 10uV of the desired voltage.
