@@ -46,7 +46,11 @@ The brightness of the LEDs and the maximum value of the decibal scale can be adj
 ├── Schematic_PCB/Music_Visualizer
 │   ├── Music_Visualizer-backups
 │   ├── Project Library
-│   ├── DC_Power_Jack
+│   │   ├── Coloured_LEDs
+│   │   │   ├── LED D5 - Blue_cutted.step
+│   │   │   ├── LED D5 - Red_cutted.step
+│   │   │   └── LED D5 - Yellow_cutted.step
+│   │   ├── DC_Power_Jack
 │   │   │   ├── CUI_DEVICES_PJ-079BH.step
 │   │   │   ├── CUI_DEVICES.kicad_mod
 │   │   │   └── PJ-079BH.lib
