@@ -143,7 +143,8 @@ The brightness of the LEDs and the maximum value of the decibal scale can be adj
     - Contains the Audio input circuit (male and female connections where a slide switch is used to choose one or the other), the mounting holes, and op amp bypass capacitors.
     - Contains the Power.kicad_sch and LED_driver.kicad_sch schematics as well
     - **Power.kicad_sch:** Contians circuit for the the +5V regulator, circuit to connect to external power supply with with reverse voltage protection  and -5V Inverter/Regulator, the latter 2 are based on the spice files in Simulatd_Circuits\Power.
-![Capture3](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/c4040d1f-ada3-4ca1-bdf2-674ca6ec7117)
+![Power_Circuitry](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/6fd94c75-fecc-4399-8b48-76c08bde1816)
+
 
     - **Led_Driver.kicad_sch:** Contains the 7 LED drivers, LED brightness control and Rhi-Value Control Circuit based on the spice files in LED_Driving folder.
 - **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File.  When clicked it opens up a directory that allows you to access the PCB layout file and schematic layout file.
