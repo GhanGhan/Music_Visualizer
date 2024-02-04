@@ -157,9 +157,9 @@ Hello world
     - Contains all 7 frequency spectrums based on the spice files in Simulated_Circuits\Spectrum_Filter\Final_Filter folder.
     - Contains the Audio input circuit (male and female connections where a slide switch is used to choose one or the other), the mounting holes, and op amp bypass capacitors.
     - Contains the Power.kicad_sch and LED_driver.kicad_sch schematics as well
-    - **Power.kicad_sch:** Contians circuit for the the +5V regulator, circuit to connect to external power supply with with reverse voltage protection  and -5V Inverter/Regulator, the latter 2 are based on the spice files in Simulatd_Circuits\Power.
+    - **Power.kicad_sch:** Contians circuit for the the +5V regulator, circuit to connect to external power supply with with reverse voltage protection  and -5V Inverter/Regulator as shown in *Figure 3*, the latter 2 are based on the spice files in Simulatd_Circuits\Power.
 ![Power_Circuitry](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/6fd94c75-fecc-4399-8b48-76c08bde1816)
-
+***Figure 3: 9V & +/-5V Power Circuitry***
 
     - **Led_Driver.kicad_sch:** Contains the 7 LED drivers, LED brightness control and Rhi-Value Control Circuit based on the spice files in LED_Driving folder.
 - **Music_Visualizer.kicad_pro:** Music Visualizer KiCad File.  When clicked it opens up a directory that allows you to access the PCB layout file and schematic layout file.
@@ -171,17 +171,18 @@ Hello world
 - **LED_Driving:**
     - **LM3915_Base_Circuit.asc:** Contains an LM3915 (the led driver) IC connected to 10 LEDs.  The IC is driven by a sinusoidal voltage source.  **Vref (Current reference pin)** is used to set the diode current to about 18mA using a grounded 680 ohm resistor.  It is powered by 9V, and **Vrhi (high-input reference-voltage)** is set to 3.5V.
 ![Base_DriverV2](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/26bce2fd-7e98-4d7b-9c52-f342392a84c2)
-
+***Figure 4: LED Driving Circuit***
 
     - **LM3915_Chain.asc:** Contains 7 LM3915_Base circuits all driven by the same input AC voltage and high-input reference voltage.  The 680 ohm resistor of each LM3915_Base circuit is connected to a RadjPot.  This resistor acts as a potentiometer, changing its resistance allows one to adjust the current going through the LEDs of all of the LED drivers.
     - **RhiControl_LTC1250.asc:** Connects to the high-input reference voltage pin of the LED driver IC.  R1 and R2 act as a potentiometer. A voltage follower is appended to the ouput of the 'potentiometer' because the average load voltage of the Vrhi pin is about 17.5kohm, when there are in parallel they equivalent reisistance is about 2.5kohm.  The voltage follower ensures that the voltage at the pins is is the same value as the output of the potentiometer.  This particular op-amp was chosen because it has a max input offset voltage of < |10uV|, this means that the voltage at the pin will always be within 10uV of the desired voltage.
-![RhiControl_LTC1250](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/a454ea6d-65f5-4804-ada4-61b854b871ce)
-
+![RhiControl_LTC1250_Enlarged](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/f9c4c75c-1733-49de-9c02-a8194e059f68)
+***Figure 5: Volume Scale Range Control Circuit***
   
     - **Voltage_Follower_Replacement.asc:**  This is a common-collector circuit, a single transistor implementation of a current follower.  The 2N2222 transistor is used to replace the LTC1250 op-amp because it shorted the -5 and +5 terminals that it was being powered from.
 - **Spectrum_Filters:**
     - **Final_Filters:** Folder contains the final filter design for the 7 spectrum filters; Sub-Bass, Bass, Low-Midrange, Midrange, Upper-Midrange, Presence and Brilliance.  Each filter is prepended with a voltage buffer to isolate themselves from the signal source.  This way the impedances of the filters do not affect each other.  Each filter also has a high-pass filter appended to it to prevent unintented activation of the LED driver due to the input-offset voltage of the LM324 op amps which can be as high as 7mV.
   ![SubBaseFinalFilter](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/730bfdd8-ce0e-4ce2-9230-ffa1209b6b4e)
+***Figure 6: Complete Sub-Base Filter Simulation File***
 
          - Also the resistor values in the final design are slightly different from the "ideal version".  This is because those resistances need at least two resistors in series or parallel to be realized.  The nominal resistor values choses for the final design are within 1.5% of the ideal value.  It was determined that this did not have a significant effect on the frequency response. 
     - **Ideal_Filters:** Folder contains design for idealized implementation of the 7 spectrum filters.  In these LTSpice files ideal op-amps are being used and all of the resistor values match the values provided from the Analog Filter Wizard.
