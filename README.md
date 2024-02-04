@@ -1,16 +1,17 @@
 # Overview      
 The device receives an audio signal from a 3.5mm jack (i.e. a headphone jack) that is connected to any analog sound source. The audio signal is then separated into the **7 music frequency ranges** and their respective volumes' are then **displayed on 10 LED's using a decibel scale.**
-The brightness of the LEDs and the maximum value of the decibal scale can be adjusted by the user!
-<!---
-![Full_3D_View](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/c1a8e4e7-99a0-4a1e-9c01-7bc1968a0fe4)
-*3D View*
+The brightness of the LEDs and the maximum value of the decibal scale can be adjusted by the user by turning the potentiometers located at the bottom of the PCB shown in *Figure 1*!
 
+![Full_3D_View](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/c1a8e4e7-99a0-4a1e-9c01-7bc1968a0fe4)
+***Figure 1: 3D View***
+<!---
 Hello world
---->
+
 <figure>
    <img src="https://github.com/GhanGhan/Music_Visualizer/assets/17633599/c1a8e4e7-99a0-4a1e-9c01-7bc1968a0fe4">
-   <figcaption>Figure 1: 3D View of Music Visualizer</figcaption>
+   <figcaption>**Figure 1: 3D View of Music Visualizer**</figcaption>
 </figure>
+--->
 
 # Table of Contents
 1. Summary of Functionaity
@@ -23,7 +24,7 @@ Hello world
 9. Acknowledgements
 
 # Summary of Functionality
-- Can change input source to a male or female jack using a slide switch, both of which are single channel
+- Can change input source to a male or female jack using a slide switch as shown in *Figure 2*
 - Can safely handle a differential input voltage signal of up to 32V
 - Uses 6th order 60dB/decade active Butterworth filters to segment the signal into 7 spectrums
 - Both the brightness of the LEDs and maximum scale voltage can be changed using logarithmic potentiometers
@@ -33,6 +34,7 @@ Hello world
    - 3 Yellow LEDS   [12% : 35%]
    - 3 Red LEDS      [35% : 100%]
 ![Block Diagaram](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/5a0be6d4-ff8d-4974-a6ca-7c313b8ab329)
+***Figure 2: Block Diagaram of Signal, Power and Control Flow***
 
 # Contained in Repository
 - Spice design files (made using LTSpice)
