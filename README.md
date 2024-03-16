@@ -15,10 +15,11 @@ Hello world
 
 # Table of Contents
 1. Summary of Functionaity
-2. Contained in Respository
-3. Repository Structure
-4. Folder & Design File Explanation
-5. Generate Files for Fabrication
+2. Operation Videos
+3. Contained in Respository
+4. Repository Structure
+5. Folder & Design File Explanation
+6. Generate Files for Fabrication
 7. Current Issues
 8. License
 9. Acknowledgements
@@ -44,6 +45,14 @@ Hello world
    - Sound characterization
    - Measured Frequency response
    - Docs related to properties of critical electrical components
+
+# Operation Videos
+[![Frequency_Sweep_Thumb25](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/8c1dfab0-af1a-4b25-96a9-9ba85844304b)](https://www.youtube.com/watch?v=qO5JhvR4XTk)
+[![Visualization_Thumb25](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/ac29a39c-50f7-4dd3-bab8-604cce5e9d9b)](https://www.youtube.com/watch?v=t0gG-SFj2FQ)
+[![Capabilities_Thumb25](https://github.com/GhanGhan/Music_Visualizer/assets/17633599/a560ecb0-c9c4-47fc-94c8-9cfc0b1c2e9e)](https://www.youtube.com/watch?v=kU3bXjiCjgI)
+
+
+
 
 # Repository Structure
 ```
