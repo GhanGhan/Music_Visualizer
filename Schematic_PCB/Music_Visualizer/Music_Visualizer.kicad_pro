@@ -1,15 +1,19 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
-        "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.1,
+        "copper_line_width": 0.2,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
-        "courtyard_line_width": 0.049999999999999996,
+        "courtyard_line_width": 0.05,
         "dimension_precision": 4,
         "dimension_units": 3,
         "dimensions": {
@@ -20,7 +24,7 @@
           "text_position": 0,
           "units_format": 1
         },
-        "fab_line_width": 0.09999999999999999,
+        "fab_line_width": 0.1,
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
@@ -55,48 +59,35 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "clearance|111860000|131000000|6086bd8f-5f16-4fbe-8729-cb817a1dc4f9|b6437e22-8d20-497b-9247-f69a7a68905f",
-        "clearance|133450000|125412000|f58609cd-526d-45de-b593-81ea581475eb|40dc3a27-b735-4cc2-94ea-58da456451d0",
-        "clearance|135700000|133450000|76d3ecd3-19cb-421e-b5bf-b9ff4edf6744|5af87c70-b22b-4f4b-979c-a486f9c78f30",
-        "clearance|143410000|88710000|4be9824f-7460-4563-b83e-6a2d2a302942|7dac78d2-8d5e-4dcf-8e26-f5ae5390a18a",
-        "clearance|147384000|137260000|075c7673-9ca7-40bb-98b7-48e58456d7c5|ed87c6ed-5f97-4c1e-a265-781754f15e7d",
-        "clearance|175070000|119480000|7c5e97ad-2180-4631-b063-8b0acb22357f|714d0449-ed87-42f8-921c-7f84bb72a402",
-        "clearance|178880000|122020000|2acb75ba-945c-4cdd-b4c5-6a8a2fd8d018|b2a9e09a-b91d-4ae0-82db-0abb92e54c18",
-        "clearance|183960000|137260000|e98dd393-20e3-4cb2-b9e2-6bea52079554|bc29f39c-4c64-40ae-ab2e-de96b2a7e9f0",
-        "clearance|209196000|125032000|e86b7001-4196-46e0-9437-1b88f6a30d1a|9bd70941-1b9d-45d4-97a2-b3c4591abc5f",
-        "clearance|211010000|133250000|b29cb2e8-3e95-4eda-a96d-9229b4c33c78|d0db772b-ced0-4c33-be2c-5b90674c4bd8",
-        "clearance|211936000|125412000|c700e0b2-94b8-4445-a540-7ae500a999de|c019a7ce-205d-4e9e-a8b7-4407a2fdb723",
-        "clearance|214186000|130910000|af6cc7b9-a8a7-424e-9c3f-1c81ebf1e611|bb72b7f4-180c-4db4-9735-931be884153f",
-        "clearance|214440000|119480000|abf1e233-0d52-47d7-8d6f-84a310d79cf0|5ea5ead1-1ad1-44bc-bf30-2986782489d5",
-        "clearance|220880000|119190000|1626eb61-4a4f-48a2-a2ec-1a80e3920ec2|f7916381-04b8-43db-8fa5-077377bf4b44",
-        "clearance|261520000|88710000|6aab97d7-9e90-416b-b3dd-75fdd1779ccb|85dc2901-daf0-4921-aec4-07382ffac223",
-        "clearance|270700000|136552000|7e0ac8b4-f21b-40f6-9bbd-f044ee498959|a2bd8504-79a9-4a45-93dd-a989afca60e7",
-        "clearance|289750000|133250000|0d55b207-4588-49ea-b682-603e7a84a77b|882deef7-7c12-4a32-8e64-b80aec7c417b",
-        "clearance|293560000|125630000|f4cadffa-aed6-47d6-a6dc-1677240c263d|bc160737-df76-4ff5-bbcc-f605b713e06a",
-        "clearance|310070000|136679000|0968d109-734f-447a-9475-a838db5abfad|a3836644-69bb-4434-85d0-16e39a955e6c",
-        "clearance|92900000|133504000|f172c9fa-7823-4fd6-bd92-344a5c88310f|5a6f482a-4b90-4c09-85e0-f0ebab074e6f"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -106,9 +97,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -125,26 +121,100 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
-        "min_copper_edge_clearance": 0.19999999999999998,
-        "min_hole_clearance": 0.19999999999999998,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.254,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
         "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.39999999999999997,
+        "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.254,
         0.508,
         1.27
       ],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
       "via_dimensions": [
         {
           "diameter": 0.0,
@@ -154,7 +224,15 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "ipc2581": {
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": ""
+    },
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -376,7 +454,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -390,10 +468,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -402,20 +480,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "9V Power",
-        "nets": [
-          "+9V",
-          "/Power/Power",
-          "Mode"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -424,24 +497,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Brightness Control",
-        "nets": [
-          "Net-(R75-Pad1)",
-          "Net-(R76-Pad1)",
-          "Net-(R77-Pad1)",
-          "Net-(R78-Pad1)",
-          "Net-(R79-Pad1)",
-          "Net-(R80-Pad1)",
-          "Net-(R81-Pad1)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -450,73 +514,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FilterInternal",
-        "nets": [
-          "Net-(C10-Pad1)",
-          "Net-(C10-Pad2)",
-          "Net-(C11-Pad1)",
-          "Net-(C11-Pad2)",
-          "Net-(C12-Pad2)",
-          "Net-(C13-Pad1)",
-          "Net-(C13-Pad2)",
-          "Net-(C14-Pad2)",
-          "Net-(C15-Pad1)",
-          "Net-(C15-Pad2)",
-          "Net-(C16-Pad2)",
-          "Net-(C17-Pad1)",
-          "Net-(C17-Pad2)",
-          "Net-(C18-Pad2)",
-          "Net-(C19-Pad1)",
-          "Net-(C19-Pad2)",
-          "Net-(C2-Pad2)",
-          "Net-(C20-Pad2)",
-          "Net-(C21-Pad1)",
-          "Net-(C22-Pad2)",
-          "Net-(C23-Pad1)",
-          "Net-(C23-Pad2)",
-          "Net-(C25-Pad1)",
-          "Net-(C25-Pad2)",
-          "Net-(C26-Pad2)",
-          "Net-(C27-Pad1)",
-          "Net-(C28-Pad2)",
-          "Net-(C29-Pad1)",
-          "Net-(C29-Pad2)",
-          "Net-(C3-Pad1)",
-          "Net-(C3-Pad2)",
-          "Net-(C30-Pad2)",
-          "Net-(C31-Pad1)",
-          "Net-(C31-Pad2)",
-          "Net-(C32-Pad2)",
-          "Net-(C33-Pad1)",
-          "Net-(C34-Pad2)",
-          "Net-(C35-Pad1)",
-          "Net-(C35-Pad2)",
-          "Net-(C36-Pad2)",
-          "Net-(C37-Pad1)",
-          "Net-(C38-Pad2)",
-          "Net-(C39-Pad1)",
-          "Net-(C39-Pad2)",
-          "Net-(C4-Pad2)",
-          "Net-(C40-Pad2)",
-          "Net-(C41-Pad1)",
-          "Net-(C41-Pad2)",
-          "Net-(C42-Pad2)",
-          "Net-(C43-Pad1)",
-          "Net-(C5-Pad1)",
-          "Net-(C6-Pad2)",
-          "Net-(C7-Pad1)",
-          "Net-(C9-Pad2)",
-          "Net-(R12-Pad2)",
-          "Net-(R31-Pad2)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -525,24 +531,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "FilterOut",
-        "nets": [
-          "VBass",
-          "VBrilliance",
-          "VLowerMidrange",
-          "VMidrange",
-          "VPresence",
-          "VSubBass",
-          "VUpperMidrange"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -551,18 +548,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RHigh",
-        "nets": [
-          "Rhi_Value"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -571,100 +565,616 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "dB LED",
-        "nets": [
-          "+5V",
-          "Net-(D1-Pad1)",
-          "Net-(D10-Pad1)",
-          "Net-(D11-Pad1)",
-          "Net-(D12-Pad1)",
-          "Net-(D13-Pad1)",
-          "Net-(D14-Pad1)",
-          "Net-(D15-Pad1)",
-          "Net-(D16-Pad1)",
-          "Net-(D17-Pad1)",
-          "Net-(D18-Pad1)",
-          "Net-(D19-Pad1)",
-          "Net-(D2-Pad1)",
-          "Net-(D20-Pad1)",
-          "Net-(D21-Pad1)",
-          "Net-(D22-Pad1)",
-          "Net-(D23-Pad1)",
-          "Net-(D24-Pad1)",
-          "Net-(D25-Pad1)",
-          "Net-(D26-Pad1)",
-          "Net-(D27-Pad1)",
-          "Net-(D28-Pad1)",
-          "Net-(D29-Pad1)",
-          "Net-(D3-Pad1)",
-          "Net-(D30-Pad1)",
-          "Net-(D31-Pad1)",
-          "Net-(D32-Pad1)",
-          "Net-(D33-Pad1)",
-          "Net-(D34-Pad1)",
-          "Net-(D35-Pad1)",
-          "Net-(D36-Pad1)",
-          "Net-(D37-Pad1)",
-          "Net-(D38-Pad1)",
-          "Net-(D39-Pad1)",
-          "Net-(D4-Pad1)",
-          "Net-(D40-Pad1)",
-          "Net-(D41-Pad1)",
-          "Net-(D42-Pad1)",
-          "Net-(D43-Pad1)",
-          "Net-(D44-Pad1)",
-          "Net-(D45-Pad1)",
-          "Net-(D46-Pad1)",
-          "Net-(D47-Pad1)",
-          "Net-(D48-Pad1)",
-          "Net-(D49-Pad1)",
-          "Net-(D5-Pad1)",
-          "Net-(D50-Pad1)",
-          "Net-(D51-Pad1)",
-          "Net-(D52-Pad1)",
-          "Net-(D53-Pad1)",
-          "Net-(D54-Pad1)",
-          "Net-(D55-Pad1)",
-          "Net-(D56-Pad1)",
-          "Net-(D57-Pad1)",
-          "Net-(D58-Pad1)",
-          "Net-(D59-Pad1)",
-          "Net-(D6-Pad1)",
-          "Net-(D60-Pad1)",
-          "Net-(D61-Pad1)",
-          "Net-(D62-Pad1)",
-          "Net-(D63-Pad1)",
-          "Net-(D64-Pad1)",
-          "Net-(D65-Pad1)",
-          "Net-(D66-Pad1)",
-          "Net-(D67-Pad1)",
-          "Net-(D68-Pad1)",
-          "Net-(D69-Pad1)",
-          "Net-(D7-Pad1)",
-          "Net-(D70-Pad1)",
-          "Net-(D71-Pad2)",
-          "Net-(D8-Pad1)",
-          "Net-(D9-Pad1)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.254,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "9V Power",
+        "pattern": "+9V"
+      },
+      {
+        "netclass": "9V Power",
+        "pattern": "/Power/Power"
+      },
+      {
+        "netclass": "9V Power",
+        "pattern": "Mode"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R75-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R76-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R77-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R78-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R79-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R80-Pad1)"
+      },
+      {
+        "netclass": "Brightness Control",
+        "pattern": "Net-(R81-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C10-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C10-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C11-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C11-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C12-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C13-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C13-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C14-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C15-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C15-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C16-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C17-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C17-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C18-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C19-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C19-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C2-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C20-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C21-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C22-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C23-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C23-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C25-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C25-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C26-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C27-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C28-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C29-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C29-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C3-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C3-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C30-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C31-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C31-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C32-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C33-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C34-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C35-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C35-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C36-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C37-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C38-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C39-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C39-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C4-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C40-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C41-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C41-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C42-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C43-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C5-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C6-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C7-Pad1)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(C9-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(R12-Pad2)"
+      },
+      {
+        "netclass": "FilterInternal",
+        "pattern": "Net-(R31-Pad2)"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VBass"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VBrilliance"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VLowerMidrange"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VMidrange"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VPresence"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VSubBass"
+      },
+      {
+        "netclass": "FilterOut",
+        "pattern": "VUpperMidrange"
+      },
+      {
+        "netclass": "RHigh",
+        "pattern": "Rhi_Value"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D1-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D10-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D11-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D12-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D13-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D14-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D15-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D16-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D17-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D18-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D19-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D2-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D20-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D21-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D22-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D23-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D24-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D25-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D26-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D27-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D28-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D29-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D3-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D30-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D31-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D32-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D33-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D34-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D35-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D36-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D37-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D38-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D39-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D4-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D40-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D41-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D42-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D43-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D44-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D45-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D46-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D47-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D48-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D49-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D5-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D50-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D51-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D52-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D53-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D54-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D55-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D56-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D57-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D58-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D59-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D6-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D60-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D61-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D62-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D63-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D64-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D65-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D66-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D67-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D68-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D69-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D7-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D70-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D71-Pad2)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D8-Pad1)"
+      },
+      {
+        "netclass": "dB LED",
+        "pattern": "Net-(D9-Pad1)"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
+      "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
